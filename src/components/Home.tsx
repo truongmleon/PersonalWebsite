@@ -13,6 +13,8 @@ const Home = () => {
             <div className="flex">
             <img id="room" src={room} alt="A room in Blender 3D by me." width="600" />
             </div>
+            <h1>Leon Truong</h1>
+            <h1>張嘉俊</h1>
         </div>
     )
 }
