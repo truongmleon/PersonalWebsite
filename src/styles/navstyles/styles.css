@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
 #nav-list {
   position: relative;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 40%;
+  width: 30%;
   height: 40px;
-  left: 140px;
   margin-left: auto;
   margin-right: 0;
 }
@@ -23,11 +22,10 @@ nav {
 }
 
 .nav {
-  padding: 2px;
   text-decoration: none;
   color: #2c2c2c;
-  font-family: "Wix Madefor Text", sans-serif;
-  font-size: 1vw;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.5vw;
   transition: 0.3s;
   font-weight: 600;
 }

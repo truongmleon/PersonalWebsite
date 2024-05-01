@@ -5,7 +5,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  background-color: #ffe3a8;
+  background-color: #fff7e6;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -31,4 +31,9 @@ body {
 }
 a {
   color: #1630a2;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */

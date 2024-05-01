@@ -26,7 +26,7 @@ const Home = () => {
         <div id="home">
             <br/> 
             <div className="flex">
-            <img id="test" src={bruh} alt="" width="600" />
+            <img id="room" src={bruh} alt="" width="600" />
             </div>
         </div>
     )
