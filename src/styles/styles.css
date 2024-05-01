@@ -19,6 +19,14 @@ body {
   animation: transitionIn 0.4s;
 }
 
+img {
+  pointer-events: none;
+}
+
+a {
+  color: #1630a2;
+}
+
 @keyframes transitionIn {
   from {
     opacity: 0;
@@ -29,10 +37,6 @@ body {
     transform: rotateX(0);
   }
 }
-a {
-  color: #1630a2;
-}
-
 .flex {
   display: flex;
   justify-content: center;
