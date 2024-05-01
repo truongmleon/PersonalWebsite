@@ -4,14 +4,6 @@ const load = (id: string) => {
   id !== "home" ? window.location.href = id.replace(/\s+/g, '') + ".html" : window.location.href = "/";
 }
 
-const navRows: string[] = ["Home", "Resources", "Announcements", "Blog"];
-let htmlNav: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
-
-for (let i = 0; i < navRows.length; i++) {
-  const id = navRows[i].toLowerCase();
-  htmlNav.push(<li><h1 className="nav" onClick={() => load(id)} >{navRows[i]}</h1></li>);
-}
-
 const hamburgerMenu = () => {
   active ? document.getElementById("hamburger")?.classList.add("active") : document.getElementById("hamburger")?.classList.remove("active");
   active ? document.getElementById("menu")!.style.display = "block" : document.getElementById("menu")!.style.display = "none";
@@ -23,7 +15,10 @@ const Navbar = () => {
     <div className="">
       <nav>
         <ul id="nav-list">
-        {htmlNav}
+        <li><a className="nav" onClick={() => window.location.href = "/"} href="#about">About</a></li>
+        <li><a className="nav" onClick={() => window.location.href = "/"} href="#works">Works</a></li>
+        <li><a className="nav" onClick={() => window.location.href = "/"} href="#contact">Contact</a></li>
+        <li><a className="nav" onClick={() => load("blog")}>Blog</a></li>
         </ul>
         <div id="hamburger" onClick={() => hamburgerMenu()}>
         <span className="bar"></span>
@@ -31,7 +26,6 @@ const Navbar = () => {
         <span className="bar"></span>
         </div>
         <div id="menu">
-      {htmlNav}
       </div>
       </nav>
     </div>
