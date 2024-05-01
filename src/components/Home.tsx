@@ -13,7 +13,7 @@
 import world from "/src/assets/world.mp4";
 import world_webm from "/src/assets/world.webm";
 import world_ogg from "/src/assets/world.ogg";
-import bruh from "/src/assets/blende.png";
+import bruh from "/src/assets/room.png";
 
 const info = document.getElementById("info");
 
