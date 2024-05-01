@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 #nav-list {
   position: relative;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 30%;
+  width: 35%;
   height: 40px;
   margin-left: auto;
   margin-right: 0;
@@ -24,14 +24,15 @@ nav {
 .nav {
   text-decoration: none;
   color: #2c2c2c;
-  font-family: "Jersey 15", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.5vw;
   transition: 0.3s;
   font-weight: 600;
 }
 
 .nav:hover {
-  text-shadow: 3px 3px rgba(0, 0, 0, 0.1960784314);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.1960784314);
+  transform: translateY(-3px);
 }
 
 #hamburger {
