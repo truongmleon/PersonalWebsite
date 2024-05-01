@@ -18,7 +18,7 @@ const Navbar = () => {
         <li><a className="nav" onClick={() => window.location.href = "/"} href="#about">About</a></li>
         <li><a className="nav" onClick={() => window.location.href = "/"} href="#works">Works</a></li>
         <li><a className="nav" onClick={() => window.location.href = "/"} href="#contact">Contact</a></li>
-        <li><a className="nav" onClick={() => load("blog")}>Blog</a></li>
+        <li><a className="nav" onClick={() => window.location.href = "blog"}>Blog</a></li>
         </ul>
         <div id="hamburger" onClick={() => hamburgerMenu()}>
         <span className="bar"></span>
