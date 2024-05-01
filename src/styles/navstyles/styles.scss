@@ -15,7 +15,7 @@ $font: "Nunito", sans-serif;
 
 nav {
     z-index: 1;
-    background-color:#ffffff00;
+    background-color: #ffffff00;
     user-select: none;
     position: fixed;
     width: 100%;
@@ -26,13 +26,12 @@ nav {
     color: #2c2c2c;
     font-family: $font;
     font-size: 1.5vw;
-    transition: 0.3s;
+    transition: 0.2s;
     font-weight: 600;
 }
 
 .nav:hover {
-    text-shadow: 1px 1px #00000032;
-    transform: translateY(-3px);
+    text-shadow: 2px 2px #00000032;
 }
 
 #hamburger {

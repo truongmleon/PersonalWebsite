@@ -13,7 +13,7 @@
 import world from "/src/assets/world.mp4";
 import world_webm from "/src/assets/world.webm";
 import world_ogg from "/src/assets/world.ogg";
-import bruh from "/src/assets/room.png";
+import room from "/src/assets/room.png";
 
 const info = document.getElementById("info");
 
@@ -26,7 +26,7 @@ const Home = () => {
         <div id="home">
             <br/> 
             <div className="flex">
-            <img id="room" src={bruh} alt="" width="600" />
+            <img id="room" src={room} alt="" width="600" />
             </div>
         </div>
     )

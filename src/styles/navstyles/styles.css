@@ -26,13 +26,12 @@ nav {
   color: #2c2c2c;
   font-family: "Nunito", sans-serif;
   font-size: 1.5vw;
-  transition: 0.3s;
+  transition: 0.2s;
   font-weight: 600;
 }
 
 .nav:hover {
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.1960784314);
-  transform: translateY(-3px);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.1960784314);
 }
 
 #hamburger {
