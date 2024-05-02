@@ -1,8 +1,14 @@
 @import url("https://use.typekit.net/zmr3gei.css");
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;600&display=swap');
 
+$font: "Nunito", sans-serif;
 $font1: "myriad-pro", sans-serif;
 $font2: 'Ysabeau Infant', sans-serif;
+
+h1, h2 {
+    font-family: $font;
+    color: #353535;
+}
 
 #home {
     width: 100%;
@@ -13,8 +19,27 @@ $font2: 'Ysabeau Infant', sans-serif;
 }
 
 #room {
+    z-index: 0;
     position: absolute;
     box-shadow: 0 0 8px 8px #fff2dd inset;
+}
+
+#name-eng {
+    z-index: 1;
+    position: absolute;
+    width: 20%;
+    font-size: 6vw;
+    margin-left: 68%;
+    margin-top: 10%;
+    line-height: 5.5vw;
+}
+
+#name-cn {
+    z-index: 1;
+    position: absolute;
+    font-size: 8vw;
+    margin-left: 10%;
+    margin-top: 20%;
 }
 
 @media screen and (max-width: 1130px) {
