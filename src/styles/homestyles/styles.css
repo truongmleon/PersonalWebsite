@@ -25,7 +25,7 @@ h1, h2 {
   width: 20%;
   font-size: 6vw;
   margin-left: 68%;
-  margin-top: 10%;
+  margin-top: 8%;
   line-height: 5.5vw;
 }
 
@@ -34,7 +34,7 @@ h1, h2 {
   position: absolute;
   font-size: 8vw;
   margin-left: 10%;
-  margin-top: 20%;
+  margin-top: 21%;
 }
 
 @media screen and (max-width: 1130px) {
