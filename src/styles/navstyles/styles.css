@@ -4,10 +4,10 @@
   position: relative;
   list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  width: 35%;
-  height: 40%;
+  width: 40%;
+  height: 2%;
   margin-left: auto;
   margin-right: 0;
 }
@@ -19,20 +19,24 @@ nav {
      -moz-user-select: none;
           user-select: none;
   position: fixed;
-  width: 100%;
+  width: 99%;
   height: 8%;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .nav {
+  position: absolute;
   text-decoration: none;
   color: #2c2c2c;
   font-family: "Nunito", sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   transition: 0.2s;
 }
 
 .nav:hover {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.1960784314);
+  transform: translateY(-2px);
 }
 
 #hamburger {
