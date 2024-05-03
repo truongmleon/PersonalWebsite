@@ -3,7 +3,9 @@ $font1: "myriad-pro", sans-serif;
 $font2: 'Ysabeau Infant', sans-serif;
 
 #home {
+    position: relative;
     width: 100%;
+    height: 100%;
 }
 
 #no-over {
@@ -28,7 +30,7 @@ $font2: 'Ysabeau Infant', sans-serif;
 
 #name-cn {
     z-index: 0;
-    position: absolute;
+    position: relative;
     font-size: 8vw;
     margin-left: 10%;
     margin-top: 21%;
