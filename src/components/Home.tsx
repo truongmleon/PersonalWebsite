@@ -1,11 +1,5 @@
 import room from "/src/assets/room.png";
 
-const info = document.getElementById("info");
-
-info?.addEventListener("click", () =>{
-    window.open("https://www.youtube.com/watch?v=P5OpsyHhzwM");
-});
-
 const Home = () => {
     return (
         <div id="home">
