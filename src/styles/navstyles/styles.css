@@ -13,7 +13,7 @@
 
 nav {
   z-index: 1;
-  background-color: #fff2dd;
+  background-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
