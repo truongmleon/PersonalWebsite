@@ -3,6 +3,7 @@ import room from "/src/assets/room.png";
 const Home = () => {
     return (
         <div id="home">
+            
             <div className="flex">
                 <img id="room" src={room} alt="A room in Blender 3D by me." width="600" />
             </div>
