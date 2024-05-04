@@ -23,7 +23,7 @@ body {
   animation: transitionIn 0.4s;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: "Nunito", sans-serif;
   color: #353535;
 }
