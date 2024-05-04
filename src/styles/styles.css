@@ -12,7 +12,8 @@ body, html {
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   overflow-x: hidden;
-  height: 3000px;
+  overflow-y: scroll;
+  max-height: 3000px;
 }
 
 body::-webkit-scrollbar {
@@ -23,7 +24,7 @@ body {
   animation: transitionIn 0.4s;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
   font-family: "Nunito", sans-serif;
   color: #353535;
 }
