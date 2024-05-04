@@ -1,7 +1,10 @@
+import gears from "/src/assets/gear.png";
+
 const About = () => {
     return (
         <div id="about">
             <br/> 
+            <img id="gears" src={gears} alt="Gears made in Blender by me." />
             <h3 id="introduction">About me</h3>
             <p className="blurb-me">Hi, I’m Leon. I’m a self-taught web developer in React.js and hobbyist 3D modeler with Blender 3D. 
                 I’m attending the University of Washington majoring in computer science. 
