@@ -11,10 +11,11 @@ $font: "Nunito", sans-serif;
 body, html {
     margin: 0;
     padding: 0;
-    background-color: #fff2dd;
+    background: linear-gradient(#fff2dd, #fff5df, #fff3dd);
     scroll-behavior: smooth;
     -ms-overflow-style: none; 
-    height: 10000px;
+    overflow-x: hidden;
+    height: 3000px;
 }
 
 body::-webkit-scrollbar { 
@@ -28,6 +29,10 @@ body {
 h1, h2, h3 {
     font-family: $font;
     color: #353535;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px #767676;
 }
 
 img {
