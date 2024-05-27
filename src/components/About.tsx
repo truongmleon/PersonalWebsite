@@ -1,5 +1,7 @@
+const img = document.getElementById("games");
+
 const getImage = () => {
-    const img = document.getElementById("games");
+    
     
 }
 
