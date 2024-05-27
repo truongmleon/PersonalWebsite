@@ -8,11 +8,18 @@ $font: "Nunito", sans-serif;
 }
 
 #introduction {
+    background-color: #ffe9e9;
     font-size: 4vw;
-    width: 20vw;
+    width: 50vw;
+    height: 90px;
+    padding-left: 1vw;
     margin-bottom: 30px;
-    border-bottom: double #353535 8px;
-    border-right: double #353535 8px;
+    border: double #353535 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.15) 
+    0px 20px 80px -20px,
+    rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
 }
 
 .blurb-me {
@@ -20,9 +27,10 @@ $font: "Nunito", sans-serif;
     width: 50vw;
 }
 
-#gears {
+#games {
     position: absolute;
     width: 40vw;
+    margin-top: 40px;
     margin-left: 60%; 
     margin-right: 2%;
 }
