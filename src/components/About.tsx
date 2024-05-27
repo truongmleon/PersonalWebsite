@@ -16,10 +16,10 @@ const About = () => {
             </p>
             <p className="blurb-me">
                 Outside of coding, I enjoy playing video games (Persona, MC, AC:NH), strategizing chess (challenge me!), and reading manga (view my favs). 
-                I’m an avid listener for J-pop and sometimes K-pop from my friends (view playlists).
+                I’m a hard listener for J-pop and sometimes K-pop from my friends (view playlists).
             </p>
             <p className="blurb-me">
-                With so much learning when it comes to different types of technologies, I developed an intense passion for learning EVERYTHING. 
+                With so much learning when it comes to different types of technologies, I developed an intense passion for learning everything. 
                 I have great friends who brought me to this point.
                 You can learn and receive more insight about me in my blog :)).
             </p>
