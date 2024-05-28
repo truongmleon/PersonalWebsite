@@ -1,9 +1,7 @@
-import { images } from "./About";
-
 const getImage = () => {
     const img: HTMLElement | null = document!.getElementById("games");
-    const num: number = Math.floor(Math.random() * 32);
-    img!.setAttribute("src", images[num]);
+    const num: number = Math.floor(Math.random() * 33 + 1);
+    img!.setAttribute("src", `/src/assets/switch/${num}.png`);
 }
 
 const About = () => {
