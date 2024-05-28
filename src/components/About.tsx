@@ -32,12 +32,14 @@ import image31 from "/src/assets/switch/31.png";
 import image32 from "/src/assets/switch/32.png";
 import image33 from "/src/assets/switch/33.png";
 
- const switchImages = [
+const switchImages = [
     image1, image2, image3, image4, image5, image6, image7, image8, image9, image10,
     image11, image12, image13, image14, image15, image16, image17, image18, image19, image20,
     image21, image22, image23, image24, image25, image26, image27, image28, image29, image30,
     image31, image32, image33
 ];
+
+//^The result of Vercel.
 
 const getImage = () => {
     const img: HTMLElement | null = document!.getElementById("games");
