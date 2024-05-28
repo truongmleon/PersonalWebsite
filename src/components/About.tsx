@@ -45,7 +45,6 @@ const getImage = () => {
     const img: HTMLElement | null = document!.getElementById("games");
     const num: number = Math.floor(Math.random() * 32);
     img!.setAttribute("src",switchImages[num]);
-    console.log(1);
 }
 
 const About = () => {
