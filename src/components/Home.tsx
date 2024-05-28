@@ -1,4 +1,4 @@
-import room from "/src/assets/room.png";
+import room from "/public/assets/room.png";
 
 const Home = () => {
     return (
