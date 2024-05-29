@@ -21,7 +21,7 @@ const About = () => {
             <p className="blurb-me">
                 With so much learning when it comes to different types of technologies, I developed an intense passion for learning everything. 
                 I have great friends who brought me to this point.
-                You can learn and receive more insight about me in my blog :)).
+                You can learn and receive more insight about me in my <a target="_blank" href="blog.html">blog</a> :)).
             </p>
         </section>
     )
