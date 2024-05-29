@@ -1,7 +1,7 @@
 const Project = ({image, title} : {image: string, title: string}) => {
     return (
         <div>
-            <img src={image} alt={title} />
+            <img className="project" src={image} alt={title} />
         </div>
     )
 }
