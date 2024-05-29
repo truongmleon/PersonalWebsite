@@ -2,11 +2,11 @@ import React from 'react';
 import { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from '../components/Navbar';
-import Contact from '../components/Contact';
+import Connect from '../components/Connect';
 
-ReactDOM.createRoot(document.getElementById('contact') as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById('connect') as HTMLElement).render(
   <React.StrictMode>
     <Navbar />
-    <Contact />
+    <Connect />
   </React.StrictMode>
 );

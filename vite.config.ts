@@ -10,7 +10,7 @@ export default defineConfig({
         main: 'index.html',
         works: 'works.html',
         blog: 'blog.html',
-        contact: 'contact.html'
+        connect: 'connect.html'
       },
     },
   },

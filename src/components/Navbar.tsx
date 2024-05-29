@@ -16,7 +16,7 @@ const Navbar = () => {
         <li><a className="nav" onClick={baseLink} href="/">Home</a></li>
         <li><a className="nav" href="works.html">Works</a></li>
         <li><a className="nav" href="blog.html">Blog</a></li>
-        <li><a className="nav" href="contact.html">Contact</a></li>
+        <li><a className="nav" href="connect.html">Connect</a></li>
         </ul>
         <div id="hamburger" onClick={() => hamburgerMenu()}>
         <span className="bar"></span>
