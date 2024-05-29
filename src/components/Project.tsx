@@ -1,8 +1,9 @@
-const Project = ({image, title} : {image: string, title: string}) => {
+const Project = ({image, title, link} : {image: string, title: string, link: string}) => {
     return (
-        <div>
-            <img className="project" src={image} alt={title} />
-        </div>
+        <section>
+            <h3>{title}</h3>
+            <img className="project" src={"/projects/default/" + image} alt={title} onClick={() => window.open(link, "_blank")} />
+        </section>
     )
 }
 

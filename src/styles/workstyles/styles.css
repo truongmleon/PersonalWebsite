@@ -1,3 +1,24 @@
-#works-title {
+.works-title {
   font-size: 6vw;
+}
+
+.works-title:nth-child(1) {
+  margin: 30px 0 0 0;
+}
+
+.works-title:nth-child(2) {
+  margin: 5px 0 10px 0;
+}
+
+.project {
+  width: 10vw;
+}
+
+#projects {
+  width: 60%;
+}
+
+#projects-blurb {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=styles.css.map */
