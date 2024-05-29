@@ -1,9 +1,8 @@
 const Works = () => {
     return (
-        <div id="works">
-            
-            <div className="flex">
-            </div>
+        <div>
+            <br/>
+            <h2>Works</h2>  
 
         </div>
     )

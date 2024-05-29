@@ -1,9 +1,9 @@
 const Contact = () => {
     return (
-        <div id="contact-page">
-            
-            <div className="flex">
-            </div>
+        <div>
+            <br/>
+            <h2>Contact</h2>  
+
 
         </div>
     )
