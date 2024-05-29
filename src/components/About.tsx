@@ -6,7 +6,7 @@ const getImage = () => {
 
 const About = () => {
     return (
-        <div id="about">
+        <section id="about">
             <br/> 
             <img id="games" onClick={() => getImage()} src="/switch/1.png" alt="Nintendo Switch and Game Boy made in Blender by me." />
             <h3 id="introduction">About me _(ツ)_/¯</h3>
@@ -15,15 +15,15 @@ const About = () => {
                 Since the summer before my sophomore year of high school, I’ve been learning how to code to create whatever weird and impractical things I can think of. 
             </p>
             <p className="blurb-me">
-                Outside of coding, I enjoy playing video games (Persona, MC, AC:NH), strategizing chess (challenge me!), and reading manga (view my favs). 
-                I’m a hard listener for J-pop and sometimes K-pop from my friends (view playlists).
+                Outside of coding, I enjoy playing video games (Persona, MC, AC:NH), strategizing chess (<a target="_blank" href="https://www.chess.com/member/pieappleii">challenge me</a>), and reading manga (<a target="_blank" href="https://myanimelist.net/profile/pieappleii">view my favs</a>). 
+                I’m a hard listener for J-pop and sometimes K-pop from my friends (<a target="_blank" href="https://www.youtube.com/@truongmleon">view playlists</a>).
             </p>
             <p className="blurb-me">
                 With so much learning when it comes to different types of technologies, I developed an intense passion for learning everything. 
                 I have great friends who brought me to this point.
                 You can learn and receive more insight about me in my blog :)).
             </p>
-        </div>
+        </section>
     )
 }
 
