@@ -11,7 +11,28 @@
 }
 
 .project {
-  width: 10vw;
+  width: 25vw;
+  height: 14vw;
+  pointer-events: all;
+  box-shadow: rgba(50, 50, 93, 0.15) 0px 20px 80px -20px, rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
+}
+
+.project-title {
+  background-color: #ffe9e9;
+  border: double #353535 6px;
+  border-bottom: none;
+  padding-left: 0.5vw;
+  width: 25vw;
+  height: 52px;
+  margin-bottom: 0;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: 35vw 35vw;
 }
 
 #projects {
