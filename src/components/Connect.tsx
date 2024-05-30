@@ -1,11 +1,14 @@
 const Connect = () => {
     return (
-        <div>
+        <article className="flex">
             <br/>
-            <h2>Connect</h2>  
-
-
-        </div>
+            <section className="sections">
+            <h2 className="section-title">Connect</h2> 
+            <h3 className="context">
+                Have a question? Wanna be friends?
+            </h3>
+            </section>
+        </article>
     )
 }
 

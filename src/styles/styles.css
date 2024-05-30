@@ -54,4 +54,17 @@ a {
 .flex {
   display: flex;
   justify-content: center;
+}
+
+.sections {
+  width: 60%;
+}
+
+.section-title {
+  font-size: 6vw;
+}
+
+.context {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=styles.css.map */

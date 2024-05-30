@@ -1,9 +1,13 @@
 const Blog = () => {
     return (
-        <div>
-            <br/>
-            <h2>Blog</h2>  
-        </div>
+    <article className="flex">
+        <section className="sections">
+        <h2 className="section-title">Blog</h2> 
+        <h3 className="context">
+            Empty so far.
+        </h3>
+        </section>
+    </article>
     )
 }
 
