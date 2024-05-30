@@ -35,6 +35,7 @@
 .project-box {
     width: fit-content;
     height: 300px;
+    transition: .3s;
 }
 
 .active {
@@ -43,19 +44,26 @@
 
 .hidden {
     position: absolute;
-    transition: opacity .2s;
+    transition: opacity .3s;
 }
 
 .project-box:hover #warring-nations {
+    transform: translateY(-10px);
     opacity: 0;
 }
 
 .project-box:hover #ap-physics {
+    transform: translateY(-10px);
     opacity: 0;
 }
 
 .project-box:hover #key-club {
+    transform: translateY(-10px);
     opacity: 0;
+}
+
+.project-box:hover {
+    transform: translateY(-7px);
 }
 
 #project-grid {
