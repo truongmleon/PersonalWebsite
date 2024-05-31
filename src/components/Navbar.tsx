@@ -10,7 +10,7 @@ const hamburgerMenu = () => {
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="">
       <nav>
         <ul id="nav-list">
         <li><a className="nav" onClick={baseLink} href="/">Home</a></li>
