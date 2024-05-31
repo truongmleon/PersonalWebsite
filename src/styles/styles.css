@@ -11,8 +11,8 @@ body, html {
   background: linear-gradient(#fff2dd, #fff5df, #fff3dd);
   scroll-behavior: smooth;
   -ms-overflow-style: none;
-  overflow-x: hidden;
-  max-height: 3000px;
+  height: 100%;
+  width: 100%;
   scrollbar-color: rgba(48, 48, 48, 0.252) #fff3dd;
 }
 
