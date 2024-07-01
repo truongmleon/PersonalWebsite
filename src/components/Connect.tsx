@@ -3,6 +3,7 @@ const Connect = () => {
         <article className="flex">
             <br/>
             <section className="sections">
+            <img id="car" src="assets/car.webp" alt="car" />
             <h2 className="section-title">Connect w/ me :3</h2> 
             <h3 className="context">
                 Have a question? Wanna be friends?
