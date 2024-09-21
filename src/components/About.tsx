@@ -15,7 +15,7 @@ const About = () => {
                 Since the summer before my sophomore year of high school, I’ve been learning how to code to create whatever weird and impractical things I can think of. 
             </p>
             <p className="blurb-me">
-                Outside of coding, I enjoy playing video games (Persona, MC, AC:NH), strategizing chess (<a target="_blank" href="https://www.chess.com/member/pieappleii">challenge me</a>), and reading manga (<a target="_blank" href="https://myanimelist.net/profile/pieappleii">view my favs</a>). 
+                Outside of coding, I enjoy playing video games (Persona, MC, AC:NH), strategizing chess (<a target="_blank" href="https://www.chess.com/member/pieappleii">challenge me</a>), and reading manga (<a target="_blank" href="https://myanimelist.net/profile/pieappleii">good manga</a>). 
                 I’m a hard listener for J-pop and sometimes K-pop from my friends (<a target="_blank" href="https://www.youtube.com/@truongmleon">view playlists</a>).
             </p>
             <p className="blurb-me">
