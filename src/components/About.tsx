@@ -9,19 +9,22 @@ const About = () => {
         <section id="about">
             <br/> 
             <img id="games" onClick={() => getImage()} src="/switch/1.webp" alt="Nintendo Switch and Game Boy made in Blender by me." />
-            <h3 id="introduction">About me _(ツ)_/¯</h3>
-            <p className="blurb-me">Hi, I’m Leon. I’m a self-taught web developer in React.js and hobbyist 3D modeler with Blender 3D. 
-                I’m attending the University of Washington majoring in computer science. 
-                Since the summer before my sophomore year of high school, I’ve been learning how to code to create whatever weird and impractical things I can think of. 
+            <h3 id="introduction">About m3 _(ツ)_/¯</h3>
+            <p className="blurb-me">Wsg, I’m Leon. I’m currently a computer science sophomore at the University of Washington.
+                I enjoy partaking in hackathons, building projects, and learning new technologies.
+                I actually kind of like learning everything, technology or not. There's a 
+                certain delight in collecting new skills and hobbies.
+                I’m also a huge fan of Nintendo, and I love to play games in my free time.
             </p>
             <p className="blurb-me">
-                Outside of coding, I enjoy playing video games (Persona, MC, AC:NH), strategizing chess (<a target="_blank" href="https://www.chess.com/member/pieappleii">challenge me</a>), and reading manga (<a target="_blank" href="https://myanimelist.net/profile/pieappleii">good manga</a>). 
-                I’m a hard listener for J-pop and sometimes K-pop from my friends (<a target="_blank" href="https://www.youtube.com/@truongmleon">view playlists</a>).
+I chose the path of the software engineer because I want to build stuff. My favorite video game of all 
+time is Minecraft. But I also consider strategizing the stuff I make, which make RPGS like Fire Emblem and
+Persona (3/5) some of the best (I also like a great story and music). Try clicking on the switch :3 
+There's some stuff back in 2020-2022. It feels so nostalgic thinking about it.
             </p>
             <p className="blurb-me">
-                With so much learning when it comes to different types of technologies, I developed an intense passion for learning everything. 
-                I have great friends who brought me to this point.
-                You can learn and receive more insight about me in my <a target="_blank" href="blog.html">blog</a> :)).
+            All I gotta say is life is GOOD.
+            <br />
             </p>
         </section>
     )
