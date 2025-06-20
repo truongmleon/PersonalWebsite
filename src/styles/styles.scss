@@ -27,14 +27,16 @@ body {
     animation: transitionIn 0.4s;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, span {
     font-family: $font;
     color: #353535;
 }
 
-h1, h2 {
+h1, h2, span {
     text-shadow: 2px 2px #767676;
 }
+
+
 
 img {
     pointer-events: none;

@@ -25,7 +25,6 @@ $font2: 'Ysabeau Infant', sans-serif;
     margin-left: 71%;
     margin-top: 8%;
     line-height: 7vw;
-    transition: 0.3s ease, transform 0.3s ease;
 }
 
 #name-cn {
@@ -34,6 +33,30 @@ $font2: 'Ysabeau Infant', sans-serif;
     font-size: 8vw;
     margin-left: 6%;
     margin-top: 21%;
+}
+
+#eng-wrapper {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 6%;
+}
+
+#eng-wrapper span {
+    font-weight: 700;
+    font-size: 8vw;
+    line-height: 0.9em;
+    display: inline-block;
+    animation: waveAnim 1.5s;
+    animation-delay: calc(.1s * var(--name));
+}
+
+@keyframes waveAnim {
+  0%, 40%, 100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-30px);
+  }
 }
 
 @media screen and (max-width: 1130px) {

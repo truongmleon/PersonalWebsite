@@ -1,20 +1,21 @@
 import { useState } from 'react';
 
-const Home = () => {    
-    const [name, setName] = useState('Leon Truong');
-    
+const Home = () => {        
+    // <h1 id="name-eng">Leon Truong</h1>
     return (
         <div id="home">
             <div className="flex">
                 <img id="room" src="/assets/room.png" alt="A room in Blender 3D by me." width="600" />
             </div>
-            <h1
-                onMouseOut={() => setName("Leon Truong")}
-                onMouseOver={() => setName("Truong Leon")}
-                id="name-eng"
-                style={{transform: name === "Leon Truong" ? 'scale(1)' : 'scale(1.1)'}}>
-                {name}
-            </h1>
+            <div id="eng-wrapper">
+            {"Leon".split('').map((char, index) => (
+            <span key={index} style={{ '--name': index + 1 } as React.CSSProperties}>{char}</span>
+            ))}
+            <br />
+            {"Truong".split('').map((char, index) => (
+            <span key={index} style={{ '--name': index + 5 } as React.CSSProperties}>{char}</span>
+            ))}
+            </div>
             <h2 id="name-cn">張嘉俊</h2>
         </div>
     )

@@ -5,10 +5,7 @@ const Works = () => {
         <article className="flex">
             <section className="sections">
                 <h2 className="section-title">swe stuff</h2>
-                <h3 className="context">I've used Python, C++, Java, SQL, JavaScript, TypeScript, React.js, HTML, and SCSS.
-                    I feel proficient in React.js and Java, though.
-                    I make designs that show me in my projects.
-                </h3>
+                <h3 className="context">I've used Python, C++, Java, TypeScript, React.js, HTML, and SCSS.</h3>
                 <section id="project-grid">
                 <Project image={"WarringNations.webp"} id="warring-nations" title={"Warring Nations Game"} link={"https://github.com/truongmleon/Warring-Nations-MoreMathEdition"}/>
                 <Project image={"Waves.webp"} id="ap-physics" title={"AP Physics Video"} link={"https://github.com/truongmleon/Playground/tree/small-projects/AP%20Physics%201%3A%20Video%20Project"}/>
