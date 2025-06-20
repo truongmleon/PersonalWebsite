@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div id="home">
             <div className="flex">
-                <img id="room" src="/assets/room.png" alt="A room in Blender 3D by me." width="600" />
+                <img id="room" src="/assets/room.jpg" alt="A room in Blender 3D by me." width="600" />
             </div>
             <div id="eng-wrapper">
             {"Leon".split('').map((char, index) => (
