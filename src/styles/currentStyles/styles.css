@@ -1,0 +1,30 @@
+#current {
+  position: relative;
+  width: 80%;
+  margin-left: 4%;
+  margin-right: auto;
+}
+
+#current-stuff {
+  font-size: 4vw;
+  width: 50vw;
+  height: 90px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  text-shadow: 1.5px 1.5px #767676;
+}
+
+#current-section {
+  margin-left: 53%;
+}
+
+#car {
+  position: absolute;
+  width: 40vw;
+  margin-top: 40px;
+  margin-right: 62%;
+  margin-left: 2%;
+  background-blend-mode: screen, difference, lighten;
+  border-radius: 100px;
+}/*# sourceMappingURL=styles.css.map */

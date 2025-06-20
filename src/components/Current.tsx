@@ -2,7 +2,9 @@ const Current = () => {
     return (
         <section id="current">
             <br/> 
-            <h3 id="introduction">What I'm Working On</h3>
+            <img id="car" src="/assets/car.webp" alt="minato bro" />
+            <section id="current-section">
+            <h3 id="current-stuff">what i'm working on</h3>
             <p className="blurb-me">
                 Wsg, I’m Leon. I’m currently a computer science sophomore at the University of Washington.
                 I enjoy partaking in hackathons, building projects, and learning new technologies.
@@ -20,6 +22,7 @@ const Current = () => {
                 All I gotta say is life is GOOD.
             <br />
             </p>
+            </section>
         </section>
     )
 }

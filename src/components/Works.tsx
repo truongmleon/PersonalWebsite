@@ -4,8 +4,7 @@ const Works = () => {
     return (
         <article className="flex">
             <section className="sections">
-                <h2 className="section-title">Programming</h2>
-                <h2 className="section-title">Projects</h2>
+                <h2 className="section-title">swe stuff</h2>
                 <h3 className="context">I've used Python, C++, Java, SQL, JavaScript, TypeScript, React.js, HTML, and SCSS.
                     I feel proficient in React.js and Java, though.
                     I make designs that show me in my projects.
