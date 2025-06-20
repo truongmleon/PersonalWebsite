@@ -2,7 +2,7 @@ const Current = () => {
     return (
         <section id="current">
             <br/> 
-            <h3 id="introduction">What I'm Working On 😈</h3>
+            <h3 id="introduction">What I'm Working On</h3>
             <p className="blurb-me">
                 Wsg, I’m Leon. I’m currently a computer science sophomore at the University of Washington.
                 I enjoy partaking in hackathons, building projects, and learning new technologies.

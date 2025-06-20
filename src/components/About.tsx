@@ -24,7 +24,7 @@ const About = () => {
                 There's some stuff back in 2020-2022. It feels so nostalgic thinking about it.
             </p>
             <p className="blurb-me">
-                All I gotta say is life is GOOD.
+                All I gotta say is life is good.
             <br />
             </p>
         </section>
