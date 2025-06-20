@@ -36,19 +36,6 @@ nav {
     transform: translateY(-2px);
 }
 
-#hamburger {
-    position: relative;
-    display: none;
-    z-index: 2;
-    display: flex;
-    float: right;
-    transition: 0.3s;
-    margin-top: 3px;
-    height: 100%;
-    width: 35px;
-    right: 60px;
-}
-
 .bar {
     display: none;
     width: 35px;
@@ -58,18 +45,6 @@ nav {
     margin: 9px 0px 9px 0px;
     border-radius: 4px;
     transition: 0.3s;
-}
-
-#hamburger.active .bar:nth-child(1) {
-    transform: translateY(13px) rotate(45deg);
-}
-
-#hamburger.active .bar:nth-child(3) {
-    transform: translateY(-13px) rotate(-45deg);
-}
-
-#hamburger.active .bar:nth-child(2) {
-    opacity: 0;
 }
 
 #menu {
