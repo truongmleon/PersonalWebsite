@@ -1,15 +1,8 @@
-const getImage = () => {
-    const img: HTMLElement | null = document!.getElementById("games");
-    const num: number = Math.floor(Math.random() * 33 + 1);
-    img!.setAttribute("src", `/switch/${num}.webp`);
-}
-
-const About = () => {
+const Current = () => {
     return (
-        <section id="about">
+        <section id="current">
             <br/> 
-            <img id="games" onClick={() => getImage()} src="/switch/1.webp" alt="Nintendo Switch and Game Boy made in Blender by me." />
-            <h3 id="introduction">About m3 _(ツ)_/¯</h3>
+            <h3 id="introduction">What I'm Working On 😈</h3>
             <p className="blurb-me">
                 Wsg, I’m Leon. I’m currently a computer science sophomore at the University of Washington.
                 I enjoy partaking in hackathons, building projects, and learning new technologies.
@@ -31,4 +24,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Current;
