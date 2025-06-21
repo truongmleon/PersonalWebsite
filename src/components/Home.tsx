@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
 const Home = () => {        
-    // <h1 id="name-eng">Leon Truong</h1>
     return (
         <div id="home">
             <div className="flex">
@@ -9,14 +8,18 @@ const Home = () => {
             </div>
             <div id="eng-wrapper">
             {"Leon".split('').map((char, index) => (
-            <span key={index} style={{ '--name': index + 1 } as React.CSSProperties}>{char}</span>
+            <span style={{ '--name': index + 1 } as React.CSSProperties}>{char}</span>
             ))}
             <br />
             {"Truong".split('').map((char, index) => (
-            <span key={index} style={{ '--name': index + 5 } as React.CSSProperties}>{char}</span>
+            <span style={{ '--name': index + 5 } as React.CSSProperties}>{char}</span>
             ))}
             </div>
-            <h2 id="name-cn">張嘉俊</h2>
+            <div id="cn-wrapper">
+            {"張嘉嘉".split('').map((char, index) => (
+            <span style={{ '--name': index + 1 } as React.CSSProperties}>{char}</span>
+            ))}
+            </div>
         </div>
     )
 }

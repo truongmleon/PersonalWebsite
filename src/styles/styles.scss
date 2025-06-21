@@ -27,7 +27,7 @@ body {
     animation: transitionIn 0.4s;
 }
 
-h1, h2, h3, p, span {
+h1, h2, h3, p, span, li {
     font-family: $font;
     color: #353535;
 }
@@ -35,8 +35,6 @@ h1, h2, h3, p, span {
 h1, h2, span {
     text-shadow: 2px 2px #767676;
 }
-
-
 
 img {
     pointer-events: none;
@@ -74,4 +72,9 @@ a {
 .context {
     margin: 0 0 0 0.6vw;
     padding: 0;
+}
+
+.blurb-me {
+    font-size: 1.5vw;
+    width: 50vw;
 }

@@ -6,31 +6,19 @@ $font2: 'Ysabeau Infant', sans-serif;
     position: relative;
     width: 100%;
     height: 120vh;
-    padding-top: 10vh;
-    background-blend-mode: screen, difference, lighten;
-    border-radius: 100px;
+    padding-top: 6vh;
 }
 
 #room {
     z-index: 0;
     position: absolute;
     box-shadow: 0 0 20px 20px #fff2dd inset;
+    background-blend-mode: screen, difference, lighten;
+    border-radius: 100px;
 }
 
-#name-eng {
-    z-index: 0;
+#cn-wrapper {
     position: absolute;
-    width: 20%;
-    font-size: 8vw;
-    margin-left: 71%;
-    margin-top: 8%;
-    line-height: 7vw;
-}
-
-#name-cn {
-    z-index: 0;
-    position: relative;
-    font-size: 8vw;
     margin-left: 6%;
     margin-top: 21%;
 }
@@ -47,6 +35,14 @@ $font2: 'Ysabeau Infant', sans-serif;
     line-height: 0.9em;
     display: inline-block;
     animation: waveAnim 1.5s;
+    animation-delay: calc(.1s * var(--name));
+}
+
+#cn-wrapper span {
+    font-weight: 700;
+    font-size: 8vw;
+    display: inline-block;
+    animation: waveAnim 2s;
     animation-delay: calc(.1s * var(--name));
 }
 

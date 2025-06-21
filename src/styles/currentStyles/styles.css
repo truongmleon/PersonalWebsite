@@ -27,4 +27,8 @@
   margin-left: 2%;
   background-blend-mode: screen, difference, lighten;
   border-radius: 100px;
+}
+
+#current-list {
+  height: 30vw;
 }/*# sourceMappingURL=styles.css.map */
