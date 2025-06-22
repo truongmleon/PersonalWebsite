@@ -15,7 +15,7 @@ body, html {
     scroll-behavior: smooth;
     -ms-overflow-style: none; 
     overflow-x: hidden;
-    max-height: 3000px;
+    max-height: 5000px;
     scrollbar-color: rgba(48, 48, 48, 0.252) #fff3dd;
 }
 
@@ -77,4 +77,8 @@ a {
 .blurb-me {
     font-size: 1.5vw;
     width: 50vw;
+}
+
+.info-list {
+    height: 25vw;
 }

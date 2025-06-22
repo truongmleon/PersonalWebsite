@@ -68,4 +68,32 @@
 #project-grid {
   display: grid;
   grid-template-columns: 35vw 35vw;
+}
+
+#cat {
+  margin-left: 40vw;
+  margin-top: 5vw;
+  position: absolute;
+  width: 15%;
+  image-rendering: pixelated;
+  animation: float 5s ease-in-out infinite;
+  filter: drop-shadow(rgba(17, 12, 46, 0.15) 0px 48px 100px);
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scaleX(-1);
+  }
+  25% {
+    transform: translate(10px, -15px) rotate(1deg) scaleX(-1);
+  }
+  50% {
+    transform: translate(-15px, 15px) rotate(-1deg) scaleX(-1);
+  }
+  75% {
+    transform: translate(15px, 10px) rotate(0.5deg) scaleX(-1);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scaleX(-1);
+  }
 }/*# sourceMappingURL=styles.css.map */

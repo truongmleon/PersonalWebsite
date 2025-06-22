@@ -1,3 +1,5 @@
+import "../styles/worksStyles/styles.css";
+
 const Project = ({image, id, title, link} : {image: string, id: string, title: string, link: string}) => {
     return (
         <section className="project-box">

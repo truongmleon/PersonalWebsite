@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import "../styles/homeStyles/styles.css";
 
 const Home = () => {        
     return (

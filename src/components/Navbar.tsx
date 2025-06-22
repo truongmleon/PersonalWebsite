@@ -1,11 +1,11 @@
-const baseLink = () => window.location.href = "/";
+import "../styles/navStyles/styles.css";
 
 const Navbar = () => {
   return (
     <div className="">
       <nav>
         <ul id="nav-list">
-        <li><a className="nav" onClick={baseLink} href="/">Home</a></li>
+        <li><a className="nav" onClick={() => window.location.href = "/"} href="/">Home</a></li>
         <li><a className="nav" href="projects.html">Projects</a></li>
         </ul>
       </nav>

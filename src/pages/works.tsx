@@ -1,8 +1,8 @@
 import React from 'react';
-import { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from '../components/Navbar';
 import Works from '../components/Works';
+import "../styles/styles.css";
 
 ReactDOM.createRoot(document.getElementById('works') as HTMLElement).render(
   <React.StrictMode>

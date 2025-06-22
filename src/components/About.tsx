@@ -1,3 +1,4 @@
+import "../styles/aboutStyles/styles.css";
 import { useState } from "react";
 
 const About = () => {
@@ -6,7 +7,7 @@ const About = () => {
         setImage(`/switch/${num}.webp`);
     }
 
-    const [image, setImage] = useState('/switch/1.webp');
+    const [image, setImage] = useState("/switch/1.webp");
 
     return (
         <section id="about">

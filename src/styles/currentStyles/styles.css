@@ -26,9 +26,23 @@
   margin-right: 62%;
   margin-left: 2%;
   background-blend-mode: screen, difference, lighten;
-  border-radius: 100px;
+  border-radius: 30%;
 }
 
-#current-list {
-  height: 30vw;
+#photos {
+  position: absolute;
+  width: 40vw;
+  margin-top: 5vw;
+}
+
+#us {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 5vw;
+}
+
+#photos img, #us {
+  width: 26vw;
+  border: 10px solid #fafafa;
+  filter: drop-shadow(rgba(17, 12, 46, 0.15) 0px 48px 100px);
 }/*# sourceMappingURL=styles.css.map */
