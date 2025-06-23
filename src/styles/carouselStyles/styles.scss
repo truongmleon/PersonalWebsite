@@ -11,12 +11,6 @@
     }
 }
 
-.carousel-image, #us {
-    width: 26vw;
-    border: 10px solid #fafafa;
-    pointer-events: all;
-}
-
 .carousel-container {
     display: flex;
     align-items: center;
@@ -38,12 +32,12 @@
     }
 }
 
-.carousel-track div {
-    width: 28vw;
+.carousel-track img {
+    margin: 1vw;
     flex-shrink: 0;
 }
 
-.carousel-image {
+.photocard {
     height: 19vw;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 8px 10px;
     transition: 0.3s;

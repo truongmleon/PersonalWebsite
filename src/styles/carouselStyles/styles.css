@@ -11,12 +11,6 @@
   transform: scale(1.15);
 }
 
-.carousel-image, #us {
-  width: 26vw;
-  border: 10px solid #fafafa;
-  pointer-events: all;
-}
-
 .carousel-container {
   display: flex;
   align-items: center;
@@ -39,17 +33,17 @@
   animation-play-state: paused;
 }
 
-.carousel-track div {
-  width: 28vw;
+.carousel-track img {
+  margin: 1vw;
   flex-shrink: 0;
 }
 
-.carousel-image {
+.photocard {
   height: 19vw;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 8px 10px;
   transition: 0.3s;
 }
-.carousel-image:hover {
+.photocard:hover {
   box-shadow: rgba(139, 139, 146, 0.25) 2px 5px 10px;
   transform: scale(1.15);
 }

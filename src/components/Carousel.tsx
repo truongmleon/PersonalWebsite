@@ -1,5 +1,4 @@
 import "../styles/carouselStyles/styles.css";
-import CarouselItem from "./CarouselItem";
 
 const images = {
     0: { imgUrl: "/carousel/concert.jpg" },
@@ -15,7 +14,8 @@ const images = {
     10: { imgUrl: "/carousel/shrek.jpg" },
 }
 
-const imagesArray: JSX.Element[] = Object.values(images).map((image) => <CarouselItem imgUrl={image.imgUrl}></CarouselItem>);
+const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
+    <img className="photocard" src={image.imgUrl} alt={image.imgUrl} />);
 
 const Carousel = () => {
     return (

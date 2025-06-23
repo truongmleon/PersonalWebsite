@@ -125,4 +125,10 @@ footer ul li svg:hover {
   display: flex;
   align-items: center;
   text-shadow: 1.5px 1.5px #767676;
+}
+
+.photocard {
+  width: 26vw;
+  border: 10px solid #fafafa;
+  pointer-events: all;
 }/*# sourceMappingURL=styles.css.map */
