@@ -30,7 +30,6 @@ nav {
   font-size: 1.3vw;
   transition: 0.2s;
 }
-
 .nav:hover {
   color: #4c4b4b;
   transform: translateY(-2px);

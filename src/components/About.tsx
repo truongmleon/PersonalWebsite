@@ -10,10 +10,10 @@ const About = () => {
     const [image, setImage] = useState("/switch/1.webp");
 
     return (
-        <section id="about">
+        <section className="about">
             <br/> 
             <img id="games" onClick={() => getImage()} src={image} alt="Nintendo Switch and Game Boy made in Blender by me." />
-            <h3 id="introduction">about m3 _(ツ)_/¯</h3>
+            <h3 className="introduction">about m3 _(ツ)_/¯</h3>
             <p className="blurb-me">
                 Wsg, I’m Leon. I’m currently a computer science sophomore at the University of Washington.
                 I enjoy partaking in hackathons, building projects, and learning new technologies.

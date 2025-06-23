@@ -31,20 +31,10 @@ $font: "Nunito", sans-serif;
     border-radius: 30%;
 }
 
-#photos {
-    position: absolute;
-    width: 40vw;
-    margin-top: 5vw;
+#current-list {
+    height: 25vw;
 }
 
-#us {
-    position: absolute;
-    margin-left: 70%;
-    margin-top: 5vw;
-}
-
-#photos img, #us {
-    width: 26vw;
-    border: 10px solid #fafafa;
-    filter: drop-shadow(rgba(17, 12, 46, 0.15) 0px 48px 100px);
+#past-list {
+    height: 21vw;
 }

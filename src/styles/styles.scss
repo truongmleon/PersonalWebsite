@@ -79,6 +79,20 @@ a {
     width: 50vw;
 }
 
-.info-list {
-    height: 25vw;
+.about {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+.introduction {
+    font-size: 4vw;
+    width: 50vw;
+    height: 90px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    text-shadow: 1.5px 1.5px #767676;
 }
