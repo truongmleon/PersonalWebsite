@@ -2,7 +2,9 @@ const Past = () => {
     return (
         <section className="about">
             <br/> 
-            <img className="photocard" id="us" src="/carousel/water.jpg" alt="me and a friend" />
+            <div className="float-wrapper">
+                <img className="photocard" id="us" src="/carousel/water.jpg" alt="me and a friend" />
+            </div>
             <h3 className="introduction">glimpse of the&nbsp;<i>past</i></h3>
             <ul className="past-list">
                 <li className="blurb-me">Constructed civilizations in <a href="" target="_blank">Minecraft</a> and Animal Crossing (at least 1,200 hours combined)</li>

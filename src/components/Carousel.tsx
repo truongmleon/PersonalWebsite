@@ -15,7 +15,9 @@ const images = {
 }
 
 const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
-    <img className="photocard" src={image.imgUrl} alt={image.imgUrl} />);
+    <div className="float-wrapper">
+        <img className="photocard" src={image.imgUrl} alt={image.imgUrl} />
+    </div>);
 
 const Carousel = () => {
     return (

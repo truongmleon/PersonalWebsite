@@ -1,13 +1,12 @@
 #us {
     position: absolute;
-    margin-left: 70%;
     margin-top: 5vw;
+    margin-left: 68%;
     z-index: 10; 
     box-shadow: rgba(50, 50, 93, 0.25) 20px 50px 100px 10px;
     transition: 0.3s;
     &:hover {
         box-shadow: rgba(139, 139, 146, 0.25) 2px 5px 10px;
-        transform: scale(1.15);
     }
 }
 
@@ -35,16 +34,6 @@
 .carousel-track img {
     margin: 1vw;
     flex-shrink: 0;
-}
-
-.photocard {
-    height: 19vw;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 8px 10px;
-    transition: 0.3s;
-    &:hover {
-        box-shadow: rgba(139, 139, 146, 0.25) 2px 5px 10px;
-        transform: scale(1.15);
-    }
 }
 
 @keyframes slide {
