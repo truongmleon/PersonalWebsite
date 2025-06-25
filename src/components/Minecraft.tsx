@@ -1,0 +1,182 @@
+import "../styles/minecraftStyles/styles.css";
+
+const images = {
+    0: { 
+        imgUrl: "/mc/1.webp",
+        altText: "Middle of the starting town"
+    },
+    1: { 
+        imgUrl: "/mc/2.webp",
+        altText: "Middle of the starting town"
+    },
+    2: { 
+        imgUrl: "/mc/3.webp",
+        altText: "Mineshaft"
+    },
+    3: { 
+        imgUrl: "/mc/4.webp",
+        altText: "Inside mineshaft"
+    },
+    4: { 
+        imgUrl: "/mc/5.webp",
+        altText: "Inside mineshaft"
+    },
+    5: { 
+        imgUrl: "/mc/6.webp",
+        altText: "Inside mineshaft"
+    },
+    6: { 
+        imgUrl: "/mc/7.webp",
+        altText: "Inside mineshaft"
+    },
+    7: { 
+        imgUrl: "/mc/8.webp",
+        altText: "Barn"
+    },
+    8: { 
+        imgUrl: "/mc/9.webp",
+        altText: "Middle of the starting town"
+    },
+    9: { 
+        imgUrl: "/mc/10.webp",
+        altText: "Graveyard"
+    },
+    10: { 
+        imgUrl: "/mc/11.webp",
+        altText: "Mansion hallway"
+    },
+    11: { 
+        imgUrl: "/mc/12.webp",
+        altText: "Room in the mansion"
+    },
+    12: { 
+        imgUrl: "/mc/13.webp",
+        altText: "Mansion hallway"
+    },
+    13: { 
+        imgUrl: "/mc/14.webp",
+        altText: "Room in the mansion"
+    },
+    14: { 
+        imgUrl: "/mc/15.webp",
+        altText: "Near enchanting house"
+    },
+    15: { 
+        imgUrl: "/mc/16.webp",
+        altText: "Glance from enchanting house"
+    },
+    16: { 
+        imgUrl: "/mc/17.webp",
+        altText: "Glance from enchanting house"
+    },
+    17: { 
+        imgUrl: "/mc/18.webp",
+        altText: "Nether portal and swing"
+    },
+    18: { 
+        imgUrl: "/mc/19.webp",
+        altText: "Enchantment table"
+    },
+    19: { 
+        imgUrl: "/mc/20.webp",
+        altText: "Near plaza"
+    },
+    20: { 
+        imgUrl: "/mc/21.webp",
+        altText: "At plaza"
+    },
+    21: { 
+        imgUrl: "/mc/22.webp",
+        altText: "Plaza pond"
+    },
+    22: { 
+        imgUrl: "/mc/23.webp",
+        altText: "Glance from plaza"
+    },
+    23: { 
+        imgUrl: "/mc/24.webp",
+        altText: "Near more houses"
+    },
+    24: { 
+        imgUrl: "/mc/25.webp",
+        altText: "Storage room"
+    },
+    25: { 
+        imgUrl: "/mc/26.webp",
+        altText: "Onw to mushroom village"
+    },
+    26: { 
+        imgUrl: "/mc/27.webp",
+        altText: "Mushroom village entrance"
+    },
+    27: { 
+        imgUrl: "/mc/28.webp",
+        altText: "Inside mushroom village"
+    },
+    28: { 
+        imgUrl: "/mc/29.webp",
+        altText: "Inside mushroom village"
+    },
+    29: { 
+        imgUrl: "/mc/30.webp",
+        altText: "Inside mushroom village"
+    },
+    30: { 
+        imgUrl: "/mc/31.webp",
+        altText: "Inside mushroom village"
+    },
+    31: { 
+        imgUrl: "/mc/32.webp",
+        altText: "View from houses"
+    },
+    32: { 
+        imgUrl: "/mc/33.webp",
+        altText: "Mineshaft and friend's house"
+    },
+    33: { 
+        imgUrl: "/mc/34.webp",
+        altText: "Onw to pagoda"
+    },
+    34: { 
+        imgUrl: "/mc/35.webp",
+        altText: "Pagoda entrance"
+    },
+    35: { 
+        imgUrl: "/mc/36.webp",
+        altText: "Pagoda ladder"
+    },
+    36: { 
+        imgUrl: "/mc/37.webp",
+        altText: "Middle of starting town"
+    },
+    37: { 
+        imgUrl: "/mc/38.webp",
+        altText: "Top view of starting town"
+    },
+    38: { 
+        imgUrl: "/mc/39.webp",
+        altText: "Top view of starting town"
+    },
+    39: { 
+        imgUrl: "/mc/40.webp",
+        altText: "Into the night"
+    },
+};
+
+const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
+    <img className="mc" src={image.imgUrl} alt={image.altText} />
+);
+
+const Minecraft = () => {
+    return <>
+        <h1 id="mc-title">
+            Pieappleii's World &lt;3
+        </h1>
+        <div id="mc-container">
+            {imagesArray}
+        </div>
+    </>
+    
+}
+
+export default Minecraft;

@@ -31,7 +31,7 @@ h1, h2, h3, p, span, li {
     color: #353535;
 }
 
-h1, h2, span {
+h1, span {
     text-shadow: 2px 2px #767676;
 }
 
@@ -110,6 +110,7 @@ nav {
 }
 
 .context {
+    font-size: 1.5vw;
     margin: 0 0 0 0.6vw;
     padding: 0;
 }
@@ -147,7 +148,7 @@ nav {
 .photocard {
     height: 19vw;
     width: 26vw;
-    border: 10px solid #fafafa;
+    border: 10px solid hsl(0, 0%, 98%);
     pointer-events: all;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 8px 10px;
     transition: 0.3s;
@@ -184,6 +185,7 @@ nav {
 #home-footer {
     background-image: url('../../public/assets/webfooter.png');
     min-height: 38vw;
+    filter: drop-shadow(rgba(50, 50, 93, 0.25) 10px 20px 100px);
 }
 
 @keyframes transitionIn {

@@ -11,8 +11,7 @@
     width: 25vw;
     height: 14vw;
     pointer-events: all;
-    box-shadow: rgba(50, 50, 93, 0.15) 
-    0px 20px 80px -20px,
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 20px 80px -20px,
     rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
     transition: 0.3s;
     border: double #353535 6px;
@@ -20,7 +19,7 @@
 }
 
 .project-title {
-    background-color: #ffe9e9;
+    background-color: #d5f6f6;
     border: double #353535 6px;
     border-bottom: none;
     padding-left: 0.5vw;
@@ -33,9 +32,16 @@
 }
 
 .project-box {
-    width: fit-content;
-    height: 300px;
+    margin: 0 auto;
+    height: 20vw;
     transition: .3s;
+    &:hover {
+    transform: translateY(-7px);
+    }
+    &:hover .active {
+    transform: translateY(-10px);
+    opacity: 0;
+    }
 }
 
 .active {
@@ -47,38 +53,38 @@
     transition: opacity .3s;
 }
 
-.project-box:hover #warring-nations {
-    transform: translateY(-10px);
-    opacity: 0;
-}
-
-.project-box:hover #ap-physics {
-    transform: translateY(-10px);
-    opacity: 0;
-}
-
-.project-box:hover #key-club {
-    transform: translateY(-10px);
-    opacity: 0;
-}
-
-.project-box:hover {
-    transform: translateY(-7px);
-}
-
 #project-grid {
     display: grid;
-    grid-template-columns: 35vw 35vw;
+    grid-template-columns: 1fr;
+    justify-content: center;
 }
 
 #cat {
-    margin-left: 40vw;
     margin-top: 5vw;
     position: absolute;
-    width: 15%;
+    width: 25%;
     image-rendering: pixelated;
-    animation: float 5s ease-in-out infinite;
     filter: drop-shadow(rgba(17, 12, 46, 0.15) 0px 48px 100px);
+    z-index:1;
+}
+
+#flowers {
+    margin-top: 5vw;
+    position: absolute;
+    width: 12%;
+    image-rendering: pixelated;
+    filter: drop-shadow(rgba(17, 12, 46, 0.15) 0px 24px 25px);
+    pointer-events: all;
+    transform: rotate(90deg);
+    transition: 3s;
+    &:hover {
+        z-index: 2;
+        transform: rotate(0);
+    }
+}
+
+#pixel-animation {
+    animation: float 5s ease-in-out infinite;
 }
 
 @keyframes float {
