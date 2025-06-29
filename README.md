@@ -1,3 +1,3 @@
-# My Personal Portfolio
+# Personal Website
 
 ## https://leontt.vercel.app/
