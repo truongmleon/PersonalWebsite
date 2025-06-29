@@ -1,12 +1,5 @@
 {
     "cleanUrls": true,
-    "builds": [
-        {
-            "config": {
-                "src": "dist/index.html",
-                "use": "@vercel/static-build",
-                "distDir": "dist"
-            }
-        }
-    ]
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist"
 }
