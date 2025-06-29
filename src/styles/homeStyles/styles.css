@@ -1,0 +1,52 @@
+#home {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  padding-top: 6vh;
+}
+
+#room {
+  z-index: 0;
+  position: absolute;
+  box-shadow: 0 0 20px 20px #fff2dd inset;
+  background-blend-mode: screen, difference, lighten;
+  border-radius: 100px;
+}
+
+#cn-wrapper {
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 21%;
+}
+
+#eng-wrapper {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 6%;
+}
+
+#eng-wrapper span {
+  font-weight: 700;
+  font-size: 8vw;
+  line-height: 0.9em;
+  display: inline-block;
+  animation: waveAnim 1.5s;
+  animation-delay: calc(0.1s * var(--name));
+}
+
+#cn-wrapper span {
+  font-weight: 700;
+  font-size: 8vw;
+  display: inline-block;
+  animation: waveAnim 2s;
+  animation-delay: calc(0.1s * var(--name));
+}
+
+@keyframes waveAnim {
+  0%, 40%, 100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-30px);
+  }
+}/*# sourceMappingURL=styles.css.map */
