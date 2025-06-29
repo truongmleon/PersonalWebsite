@@ -2,7 +2,7 @@ import "../styles/homeStyles/styles.css";
 
 const Home = () => {        
     return (
-        <div id="home">
+        <section id="home">
             <div className="flex">
                 <img id="room" src="/assets/room.jpg" alt="A room in Blender 3D by me." width="600" />
             </div>
@@ -20,7 +20,7 @@ const Home = () => {
             <span style={{ '--name': index + 1 } as React.CSSProperties}>{char}</span>
             ))}
             </div>
-        </div>
+        </section>
     )
 }
 

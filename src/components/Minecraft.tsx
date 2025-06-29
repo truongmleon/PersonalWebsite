@@ -172,9 +172,9 @@ const Minecraft = () => {
         <h1 id="mc-title">
             Pieappleii's World &lt;3
         </h1>
-        <div id="mc-container">
+        <section id="mc-container">
             {imagesArray}
-        </div>
+        </section>
     </>
     
 }
