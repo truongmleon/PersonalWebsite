@@ -2,7 +2,7 @@ import "../styles/currentStyles/styles.css";
 
 const Current = () => {
     return (
-        <section id="current">
+        <section data-aos="fade-right" id="current">
             <br/> 
             <img id="car" src="/assets/car.webp" alt="minato bro" />
             <section id="current-section">

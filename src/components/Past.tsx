@@ -1,6 +1,6 @@
 const Past = () => {
     return (
-        <section className="about">
+        <section data-aos="fade-left" className="about">
             <br/> 
             <div className="float-wrapper">
                 <img className="photocard" id="us" src="/carousel/water.webp" alt="me and a friend" />

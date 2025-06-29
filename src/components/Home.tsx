@@ -1,6 +1,11 @@
 import "../styles/homeStyles/styles.css";
+import AOS from "aos";
+import { useEffect } from "react";
 
 const Home = () => {        
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <section id="home">
             <div className="flex">

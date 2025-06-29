@@ -10,7 +10,7 @@ const About = () => {
     const [image, setImage] = useState("/switch/1.webp");
 
     return (
-        <section className="about">
+        <section data-aos="fade-left" className="about">
             <br/> 
             <img id="games" onClick={() => getImage()} src={image} alt="Nintendo Switch and Game Boy made in Blender by me." />
             <h3 className="introduction">about m3 _(ツ)_/¯</h3>

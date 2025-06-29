@@ -15,7 +15,7 @@ const images = {
 }
 
 const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
-    <div className="float-wrapper">
+    <div data-aos="flip-right" className="float-wrapper">
         <img className="photocard" src={image.imgUrl} alt={image.imgUrl} />
     </div>);
 

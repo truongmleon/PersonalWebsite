@@ -1,13 +1,7 @@
 import "../styles/worksStyles/styles.css";
-import "aos/dist/aos.css";
 import Project from '../components/Project';
-import AOS from "aos";
-import { useEffect } from "react";
 
 const Works = () => {
-    useEffect(() => {
-        AOS.init();
-    }, []);
     return (
         <article className="flex">
             <section className="sections">
