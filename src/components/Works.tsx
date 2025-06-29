@@ -60,15 +60,6 @@ const Works = () => {
                         more difficult problems are presented. Arithmetic, geometry, algebra, 
                         calculus, and AMC problems are included. Original idea to Samuel Do."
                     />
-                    <Project 
-                        image="keyclub.webp" 
-                        stack="React, TypeScript, SCSS, Vite" 
-                        title="Key Club Website" 
-                        github="https://github.com/truongmleon/Key-Club-Website"
-                        link="https://kwkeyclub.vercel.app/"
-                        desc="A website for Key Club built with modern web technologies to showcase 
-                        club activities and resources."
-                    />
                 </section>
             </section>
         </article>

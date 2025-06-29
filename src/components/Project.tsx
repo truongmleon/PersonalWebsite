@@ -12,8 +12,8 @@ const Project = (
                     <h3 className="project-title"><a href={github} target="_blank">{title}</a> | {stack}</h3>
                     <p className="desc">{desc}</p>
                 <div id="images">
-                    <img className="project hidden" src={`/projects/hover/${image}`} alt={title} onClick={() => window.open(link, "_blank")} />
-                    <img className="project active" src={`/projects/default/${image}`} alt={title} onClick={() => window.open(link, "_blank")} />
+                    <img loading="lazy" className="project hidden" src={`/projects/hover/${image}`} alt={title} onClick={() => window.open(link, "_blank")} />
+                    <img loading="lazy" className="project active" src={`/projects/default/${image}`} alt={title} onClick={() => window.open(link, "_blank")} />
                 </div>
             </div>
         </section>

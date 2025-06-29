@@ -164,7 +164,7 @@ const images = {
 };
 
 const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
-    <img className="mc" src={image.imgUrl} alt={image.altText} />
+    <img loading="lazy" className="mc" src={image.imgUrl} alt={image.altText} />
 );
 
 const Minecraft = () => {

@@ -3,7 +3,7 @@ const Past = () => {
         <section data-aos="fade-left" className="about">
             <br/> 
             <div className="float-wrapper">
-                <img className="photocard" id="us" src="/carousel/water.webp" alt="me and a friend" />
+                <img loading="lazy" className="photocard" id="us" src="/carousel/water.webp" alt="me and a friend" />
             </div>
             <h3 className="introduction">glimpse of the&nbsp;<i>past</i></h3>
             <ul className="past-list">
