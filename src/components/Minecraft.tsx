@@ -82,83 +82,83 @@ const images = {
         altText: "Near plaza"
     },
     20: { 
-        imgUrl: "/mc/21.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293671/21_rjkwou.webp",
         altText: "At plaza"
     },
     21: { 
-        imgUrl: "/mc/22.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293625/22_ffuau4.webp",
         altText: "Plaza pond"
     },
     22: { 
-        imgUrl: "/mc/23.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293615/23_h7aalh.webp",
         altText: "Glance from plaza"
     },
     23: { 
-        imgUrl: "/mc/24.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293651/24_bi4nni.webp",
         altText: "Near more houses"
     },
     24: { 
-        imgUrl: "/mc/25.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293641/25_kmuwoj.webp",
         altText: "Storage room"
     },
     25: { 
-        imgUrl: "/mc/26.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293667/26_qrd5yu.webp",
         altText: "Onw to mushroom village"
     },
     26: { 
-        imgUrl: "/mc/27.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293658/27_t7c0le.webp",
         altText: "Mushroom village entrance"
     },
     27: { 
-        imgUrl: "/mc/28.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293645/28_xbscsz.webp",
         altText: "Inside mushroom village"
     },
     28: { 
-        imgUrl: "/mc/29.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293649/29_d5cg91.webp",
         altText: "Inside mushroom village"
     },
     29: { 
-        imgUrl: "/mc/30.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293665/30_lklqav.webp",
         altText: "Inside mushroom village"
     },
     30: { 
-        imgUrl: "/mc/31.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293659/31_cyhbcn.webp",
         altText: "Inside mushroom village"
     },
     31: { 
-        imgUrl: "/mc/32.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293653/32_utugy5.webp",
         altText: "View from houses"
     },
     32: { 
-        imgUrl: "/mc/33.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293639/33_wuvzoc.webp",
         altText: "Mineshaft and friend's house"
     },
     33: { 
-        imgUrl: "/mc/34.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293630/34_wmyffb.webp",
         altText: "Onw to pagoda"
     },
     34: { 
-        imgUrl: "/mc/35.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293618/35_afcrfx.webp",
         altText: "Pagoda entrance"
     },
     35: { 
-        imgUrl: "/mc/36.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293671/36_x4zxzc.webp",
         altText: "Pagoda ladder"
     },
     36: { 
-        imgUrl: "/mc/37.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293676/37_ak3i30.webp",
         altText: "Middle of starting town"
     },
     37: { 
-        imgUrl: "/mc/38.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293637/38_hvh8th.webp",
         altText: "Top view of starting town"
     },
     38: { 
-        imgUrl: "/mc/39.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293623/39_tpnpvb.webp",
         altText: "Top view of starting town"
     },
     39: { 
-        imgUrl: "/mc/40.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293670/40_xt2vxk.webp",
         altText: "Into the night"
     },
 };
