@@ -1,13 +1,49 @@
 import "../styles/aboutStyles/styles.css";
 import { useState } from "react";
 
+const images: string[] = [
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295079/1_pgu3mo.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295083/7_akpq4p.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295083/26_izuggw.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295083/16_utgyaw.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295082/21_f5r2zg.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295081/17_vxz3ek.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295080/30_nx8bh0.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295080/31_diaioj.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295079/11_spawde.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295077/24_cfnbwi.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295077/32_v0ln05.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295077/2_rkt8m7.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295077/12_sehr7e.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295076/28_b9vf4p.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295073/29_jua5gs.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295073/13_dhqy75.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295073/25_xvyezm.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295073/33_fhtmrg.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295072/4_pzomij.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295071/14_q64fpw.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295070/20_ofdmcn.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295070/18_ceofzs.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295070/6_y6teh3.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295069/10_bbxtqk.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295066/3_wuqaby.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295066/23_updxa8.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295065/9_ajfpcw.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295064/19_qj58s1.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295063/5_z8nhgl.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295062/15_hjifsl.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295068/8_n7ylve.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295068/27_uw8ewy.webp",
+    "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295066/22_losv84.webp"
+]
+
 const About = () => {
+    const [image, setImage] = useState(images[0]);
+
     const getImage = () => {
-        const num: number = Math.floor(Math.random() * 33 + 1);
+        const num: number = Math.floor(Math.random() * 32 + 1);
         setImage(`/switch/${num}.webp`);
     }
-
-    const [image, setImage] = useState("/switch/1.webp");
 
     return (
         <section data-aos="fade-left" className="about">
