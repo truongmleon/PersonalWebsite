@@ -11,7 +11,7 @@ const Home = () => {
             <div className="flex">
                 <img 
                     id="room" 
-                    src="https://res.cloudinary.com/di3wnypeb/image/upload/v1751296272/room_yrqxty.jpg" 
+                    src="https://res.cloudinary.com/di3wnypeb/image/upload/v1751321601/room_bzf2rq.avif" 
                     alt="A room in Blender 3D by me." width="600" 
                 />
             </div>
