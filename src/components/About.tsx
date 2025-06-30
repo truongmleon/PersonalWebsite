@@ -35,14 +35,14 @@ const images: string[] = [
     "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295068/8_n7ylve.webp",
     "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295068/27_uw8ewy.webp",
     "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295066/22_losv84.webp"
-]
+];
 
 const About = () => {
     const [image, setImage] = useState(images[0]);
 
     const getImage = () => {
         const num: number = Math.floor(Math.random() * 32 + 1);
-        setImage(`/switch/${num}.webp`);
+        setImage(images[num]);
     }
 
     return (
