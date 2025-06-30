@@ -2,83 +2,83 @@ import "../styles/minecraftStyles/styles.css";
 
 const images = {
     0: { 
-        imgUrl: "/mc/1.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293659/1_p1fkha.webp",
         altText: "Middle of the starting town"
     },
     1: { 
-        imgUrl: "/mc/2.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293654/2_pxsxnf.webp",
         altText: "Middle of the starting town"
     },
     2: { 
-        imgUrl: "/mc/3.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293638/3_yv9sjb.webp",
         altText: "Mineshaft"
     },
     3: { 
-        imgUrl: "/mc/4.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293640/4_rvrhpj.webp",
         altText: "Inside mineshaft"
     },
     4: { 
-        imgUrl: "/mc/5.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293623/5_nnuqdg.webp",
         altText: "Inside mineshaft"
     },
     5: { 
-        imgUrl: "/mc/6.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293675/6_vhfr4w.webp",
         altText: "Inside mineshaft"
     },
     6: { 
-        imgUrl: "/mc/7.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293667/7_ahfrta.webp",
         altText: "Inside mineshaft"
     },
     7: { 
-        imgUrl: "/mc/8.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293625/8_pqwy6h.webp",
         altText: "Barn"
     },
     8: { 
-        imgUrl: "/mc/9.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293626/9_yp43ow.webp",
         altText: "Middle of the starting town"
     },
     9: { 
-        imgUrl: "/mc/10.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293664/10_ocgn73.webp",
         altText: "Graveyard"
     },
     10: { 
-        imgUrl: "/mc/11.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293658/11_rrwvfl.webp",
         altText: "Mansion hallway"
     },
     11: { 
-        imgUrl: "/mc/12.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293649/12_oay7fi.webp",
         altText: "Room in the mansion"
     },
     12: { 
-        imgUrl: "/mc/13.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293636/13_lqviir.webp",
         altText: "Mansion hallway"
     },
     13: { 
-        imgUrl: "/mc/14.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293635/14_mamuxi.webp",
         altText: "Room in the mansion"
     },
     14: { 
-        imgUrl: "/mc/15.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293614/15_diqrot.webp",
         altText: "Near enchanting house"
     },
     15: { 
-        imgUrl: "/mc/16.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293675/16_jxcmrm.webp",
         altText: "Glance from enchanting house"
     },
     16: { 
-        imgUrl: "/mc/17.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293672/17_s2iutq.webp",
         altText: "Glance from enchanting house"
     },
     17: { 
-        imgUrl: "/mc/18.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293630/18_cgohkm.webp",
         altText: "Nether portal and swing"
     },
     18: { 
-        imgUrl: "/mc/19.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293616/19_sborjf.webp",
         altText: "Enchantment table"
     },
     19: { 
-        imgUrl: "/mc/20.webp",
+        imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751293673/20_jb6bk3.webp",
         altText: "Near plaza"
     },
     20: { 
