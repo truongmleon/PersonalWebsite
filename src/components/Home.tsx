@@ -10,7 +10,6 @@ const Home = () => {
         <section id="home">
             <div className="flex">
                 <img 
-                    loading="lazy" 
                     id="room" 
                     src="https://res.cloudinary.com/di3wnypeb/image/upload/v1751296272/room_yrqxty.jpg" 
                     alt="A room in Blender 3D by me." width="600" 
