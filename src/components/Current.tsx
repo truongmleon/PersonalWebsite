@@ -4,7 +4,7 @@ const Current = () => {
     return (
         <section data-aos="fade-right" id="current">
             <br/> 
-            <img id="car" src="/assets/car.webp" alt="minato bro" />
+            <img id="car" src="https://res.cloudinary.com/di3wnypeb/image/upload/v1751296253/car_p3jrgz.webp" alt="minato bro" />
             <section id="current-section">
             <h3 id="current-stuff">things i'm working on</h3>
             <ul id="current-list">
