@@ -15,6 +15,15 @@ const images = {
     11: { imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751296141/shrek_ztbok0.webp" },
 }
 
+const preloadImages = () => {
+    Object.values(images).forEach((image) => {
+        const img = new Image();
+        img.src = image.imgUrl;
+    });
+};
+
+preloadImages();
+
 const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
     <div data-aos="flip-right" className="float-wrapper">
         <img className="photocard" src={image.imgUrl} alt={image.imgUrl} />

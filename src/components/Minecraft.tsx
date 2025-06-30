@@ -162,6 +162,14 @@ const images = {
         altText: "Into the night"
     },
 };
+const preloadImages = () => {
+    Object.values(images).forEach((image) => {
+        const img = new Image();
+        img.src = image.imgUrl;
+    });
+};
+
+preloadImages();
 
 const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
     <img loading="lazy" className="mc" src={image.imgUrl} alt={image.altText} />

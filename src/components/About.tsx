@@ -37,6 +37,15 @@ const images: string[] = [
     "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295066/22_losv84.webp"
 ];
 
+const preloadImages = () => {
+    images.forEach((image) => {
+        const img = new Image();
+        img.src = image;
+    });
+};
+
+preloadImages();
+
 const About = () => {
     const [image, setImage] = useState(images[0]);
 
