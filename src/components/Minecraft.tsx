@@ -1,5 +1,4 @@
 import "../styles/minecraftStyles/styles.css";
-import { preload } from 'react-dom';
 
 const images = {
     0: { 
@@ -168,10 +167,16 @@ const imagesArray = Object.values(images).map((image) =>
     <img loading="lazy" className="mc" src={image.imgUrl} alt={image.altText} />
 );
 
+Object.values(images).forEach(({ imgUrl }) => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = imgUrl;
+    document.head.appendChild(link);
+});
+
 const Minecraft = () => {
-    Object.values(images).forEach((src) => {
-        preload(src.imgUrl, {as: "image"});
-    });
+    // Doesn't work
 
     return <>
         <h1 id="mc-title">
