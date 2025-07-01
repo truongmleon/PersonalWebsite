@@ -1,5 +1,5 @@
 import "../styles/aboutStyles/styles.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const images: string[] = [
     "https://res.cloudinary.com/di3wnypeb/image/upload/v1751295079/1_pgu3mo.webp",
@@ -45,7 +45,12 @@ const preloadImages = () => {
 };
 
 const About = () => {
-    preloadImages();
+    useEffect(() => {
+        images.forEach((src) => {
+            const img = new Image();
+            img.src = src;
+        });
+    }, []);
     
     const [image, setImage] = useState(images[0]);
 
