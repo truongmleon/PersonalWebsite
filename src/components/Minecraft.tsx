@@ -1,5 +1,6 @@
 import "../styles/minecraftStyles/styles.css";
 import { useEffect } from "react";
+import { preload } from 'react-dom';
 
 const images = {
     0: { 
@@ -164,15 +165,14 @@ const images = {
     },
 };
 
-const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
+const imagesArray = Object.values(images).map((image) => 
     <img loading="lazy" className="mc" src={image.imgUrl} alt={image.altText} />
 );
 
 const Minecraft = () => {
         useEffect(() => {
             Object.values(images).forEach((src) => {
-                const img = new Image();
-                img.src = src.imgUrl;
+                preload(src.imgUrl);
             });
         }, []);
 
