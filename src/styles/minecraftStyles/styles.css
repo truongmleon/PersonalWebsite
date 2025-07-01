@@ -3,7 +3,7 @@
   margin-right: auto;
   width: 37vw;
   image-rendering: pixelated;
-  border: 10px solid hsl(0, 0%, 98%);
+  border: 1vw solid hsl(0, 0%, 98%);
   pointer-events: all;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   transition: 0.3s;

@@ -12,7 +12,7 @@ const Home = () => {
                 <img 
                     id="room" 
                     src="https://res.cloudinary.com/di3wnypeb/image/upload/v1751321601/room_bzf2rq.avif" 
-                    alt="A room in Blender 3D by me." width="600" 
+                    alt="A room in Blender 3D by me."
                 />
             </div>
             <div id="eng-wrapper">

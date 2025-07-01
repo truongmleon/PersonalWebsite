@@ -30,7 +30,7 @@ h1, h2, h3, p, span, li {
 }
 
 h1, span {
-    text-shadow: 2px 2px #767676;
+    text-shadow: 0.2vw 0.2vw #767676;
 }
 
 img {
@@ -42,7 +42,6 @@ a {
 }
 
 footer {
-    height: 10vw;
     width: 100%;
     display: flex;
     align-items: end;
@@ -75,8 +74,7 @@ footer ul {
 }
 
 footer ul li svg {
-    height: 2em;
-    width: 2em;
+    height: 2.5vw;
     fill: #a5581c; 
     transition: transform 0.3s ease; 
     &:hover {
@@ -134,20 +132,20 @@ nav {
     margin-bottom: 0;
     display: flex;
     align-items: center;
-    text-shadow: 1.5px 1.5px #767676;
+    text-shadow: 0.13vw 0.13vw #767676;
 }
 
 .float-wrapper {
     transition: transform 0.3s ease;
     &:hover {
-    transform: scale(1.15);
+        transform: scale(1.15);
     }
 }
 
 .photocard {
     height: 19vw;
     width: 26vw;
-    border: 10px solid hsl(0, 0%, 98%);
+    border: 0.7vw solid hsl(0, 0%, 98%);
     pointer-events: all;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 8px 10px;
     transition: 0.3s;
@@ -185,6 +183,10 @@ nav {
     background-image: url('../../assets/webfooter.png');
     min-height: 38vw;
     filter: drop-shadow(rgba(50, 50, 93, 0.25) 10px 20px 100px);
+}
+
+#mc-footer, #proj-footer {
+    height: 10vw;
 }
 
 @keyframes transitionIn {

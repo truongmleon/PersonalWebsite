@@ -8,9 +8,9 @@
 #room {
     z-index: 0;
     position: absolute;
-    box-shadow: 0 0 20px 20px #fff2dd inset;
     background-blend-mode: screen, difference, lighten;
-    border-radius: 100px;
+    border-radius: 100%;
+    width: 46%;
 }
 
 #cn-wrapper {
@@ -47,6 +47,6 @@
     transform: translateY(0);
   }
   20% {
-    transform: translateY(-30px);
+    transform: translateY(1.5vw);
   }
 }

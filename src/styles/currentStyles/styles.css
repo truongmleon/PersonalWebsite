@@ -8,11 +8,11 @@
 #current-stuff {
   font-size: 4vw;
   width: 50vw;
-  height: 90px;
+  height: 8vw;
   margin-bottom: 0;
   display: flex;
   align-items: center;
-  text-shadow: 1.5px 1.5px #767676;
+  text-shadow: 0.13vw 0.13vw #767676;
 }
 
 #current-section {
@@ -22,7 +22,7 @@
 #car {
   position: absolute;
   width: 40vw;
-  margin-top: 40px;
+  margin-top: 2vw;
   margin-right: 62%;
   margin-left: 2%;
   background-blend-mode: screen, difference, lighten;

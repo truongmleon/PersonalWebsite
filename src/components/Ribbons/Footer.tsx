@@ -3,9 +3,9 @@ import AOS from "aos";
 import { useEffect } from "react";
 
 const Footer = ({ id }: { id: string }) => {
-        useEffect(() => {
-            AOS.init();
-        }, []);
+    useEffect(() => {
+        AOS.init();
+    }, []);
         
     return <footer data-aos="fade-down" id={id}>
        <div>
