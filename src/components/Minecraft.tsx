@@ -1,5 +1,4 @@
 import "../styles/minecraftStyles/styles.css";
-import { useEffect } from "react";
 import { preload } from 'react-dom';
 
 const images = {
@@ -165,16 +164,15 @@ const images = {
     },
 };
 
+Object.values(images).forEach((src) => {
+    preload(src.imgUrl);
+});
+
 const imagesArray = Object.values(images).map((image) => 
     <img loading="lazy" className="mc" src={image.imgUrl} alt={image.altText} />
 );
 
 const Minecraft = () => {
-        useEffect(() => {
-            Object.values(images).forEach((src) => {
-                preload(src.imgUrl);
-            });
-        }, []);
 
     return <>
         <h1 id="mc-title">
