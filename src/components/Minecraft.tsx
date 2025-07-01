@@ -169,13 +169,13 @@ const preloadImages = () => {
     });
 };
 
-preloadImages();
-
 const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
     <img loading="lazy" className="mc" src={image.imgUrl} alt={image.altText} />
 );
 
 const Minecraft = () => {
+    preloadImages();
+    
     return <>
         <h1 id="mc-title">
             Pieappleii's World &lt;3

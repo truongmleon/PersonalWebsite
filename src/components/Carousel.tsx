@@ -22,14 +22,14 @@ const preloadImages = () => {
     });
 };
 
-preloadImages();
-
 const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
     <div data-aos="flip-right" className="float-wrapper">
         <img className="photocard" src={image.imgUrl} alt={image.imgUrl} />
     </div>);
 
 const Carousel = () => {
+    preloadImages();
+    
     return (
         <div className="carousel-container">
       <div className="carousel-track">

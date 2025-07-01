@@ -44,9 +44,9 @@ const preloadImages = () => {
     });
 };
 
-preloadImages();
-
 const About = () => {
+    preloadImages();
+    
     const [image, setImage] = useState(images[0]);
 
     const getImage = () => {
