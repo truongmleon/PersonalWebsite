@@ -1,5 +1,4 @@
 import "../styles/minecraftStyles/styles.css";
-import { useEffect } from "react";
 
 const images = {
     0: { 
@@ -169,12 +168,6 @@ const imagesArray = Object.values(images).map((image) =>
 );
 
 const Minecraft = () => {
-    useEffect(() => {
-        Object.values(images).forEach((src) => {
-            const img = new Image();
-            img.src = src.imgUrl;
-        });
-    }, []);
     return <>
         <h1 id="mc-title">
             Pieappleii's World &lt;3
