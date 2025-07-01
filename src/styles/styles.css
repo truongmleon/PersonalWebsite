@@ -53,7 +53,7 @@ footer div {
   display: flex;
   justify-content: center;
   background-color: #fcdfaf;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px -8px -10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 -2vw -4vw;
 }
 
 footer div p {
@@ -87,7 +87,7 @@ nav {
           user-select: none;
   position: absolute;
   width: 99%;
-  height: 55px;
+  height: 4vw;
   margin-left: auto;
   margin-right: 0;
 }
@@ -127,7 +127,7 @@ nav {
 .introduction {
   font-size: 4vw;
   width: 50vw;
-  height: 90px;
+  height: 4vw;
   margin-bottom: 0;
   display: flex;
   align-items: center;
@@ -146,12 +146,12 @@ nav {
   width: 26vw;
   border: 0.7vw solid hsl(0, 0%, 98%);
   pointer-events: all;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 8px 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 0.5vw 1vw;
   transition: 0.3s;
   animation: drift 10s ease-in-out infinite;
 }
 .photocard:hover {
-  box-shadow: rgba(139, 139, 146, 0.25) 2px 5px 10px;
+  box-shadow: rgba(139, 139, 146, 0.25) 0.1vw 0.3vw 0.5vw;
 }
 
 .nav {
@@ -164,7 +164,7 @@ nav {
 }
 .nav:hover {
   color: #4c4b4b;
-  transform: translateY(-2px);
+  transform: translateY(-0.1vw);
 }
 
 #nav-list {
@@ -181,7 +181,7 @@ nav {
 #home-footer {
   background-image: url("../../assets/webfooter.png");
   min-height: 38vw;
-  filter: drop-shadow(rgba(50, 50, 93, 0.25) 10px 20px 100px);
+  filter: drop-shadow(rgba(50, 50, 93, 0.25) 1vw 2vw 5vw);
 }
 
 #mc-footer, #proj-footer {
@@ -203,50 +203,33 @@ nav {
     transform: translate(0, 0) rotate(0deg);
   }
   10% {
-    transform: translate(5px, -8px) rotate(-0.2deg);
+    transform: translate(0.1vw, -0.2vw) rotate(-0.2deg);
   }
   20% {
-    transform: translate(12px, -3px) rotate(0.5deg);
+    transform: translate(0.25vw, -0.1vw) rotate(0.5deg);
   }
   30% {
-    transform: translate(8px, 10px) rotate(-0.7deg);
+    transform: translate(0.25vw, 0.2vw) rotate(-0.7deg);
   }
   40% {
-    transform: translate(-10px, 5px) rotate(1deg);
+    transform: translate(-0.4vw, 0.35vw) rotate(1deg);
   }
   50% {
-    transform: translate(-5px, -10px) rotate(-0.5deg);
+    transform: translate(-0.1vw, -0.3vw) rotate(-0.5deg);
   }
   60% {
-    transform: translate(15px, -5px) rotate(0.3deg);
+    transform: translate(0.3vw, -0.2vw) rotate(0.3deg);
   }
   70% {
-    transform: translate(5px, 12px) rotate(-0.8deg);
+    transform: translate(0.2vw, 0.5vw) rotate(-0.8deg);
   }
   80% {
-    transform: translate(-12px, 2px) rotate(0.6deg);
+    transform: translate(-0.35vw, 0.1vw) rotate(0.6deg);
   }
   90% {
-    transform: translate(-3px, -7px) rotate(-0.4deg);
+    transform: translate(-0.1vw, -0.2vw) rotate(-0.4deg);
   }
   100% {
     transform: translate(0, 0) rotate(0deg);
-  }
-}
-@keyframes float {
-  0% {
-    transform: translate(0, 0) rotate(0deg) scaleX(-1);
-  }
-  25% {
-    transform: translate(10px, -15px) rotate(1deg) scaleX(-1);
-  }
-  50% {
-    transform: translate(-15px, 15px) rotate(-1deg) scaleX(-1);
-  }
-  75% {
-    transform: translate(15px, 10px) rotate(0.5deg) scaleX(-1);
-  }
-  100% {
-    transform: translate(0, 0) rotate(0deg) scaleX(-1);
   }
 }/*# sourceMappingURL=styles.css.map */

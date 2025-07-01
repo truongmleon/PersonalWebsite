@@ -4,7 +4,6 @@ const Past = () => {
             <br/> 
             <div className="float-wrapper">
                 <img 
-                    loading="lazy" 
                     className="photocard" 
                     id="us" 
                     src="https://res.cloudinary.com/di3wnypeb/image/upload/v1751296233/water_dyutiq.webp" 
