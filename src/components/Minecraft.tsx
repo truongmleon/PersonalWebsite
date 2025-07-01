@@ -164,15 +164,14 @@ const images = {
     },
 };
 
-Object.values(images).forEach((src) => {
-    preload(src.imgUrl);
-});
-
 const imagesArray = Object.values(images).map((image) => 
     <img loading="lazy" className="mc" src={image.imgUrl} alt={image.altText} />
 );
 
 const Minecraft = () => {
+    Object.values(images).forEach((src) => {
+        preload(src.imgUrl, {as: "image"});
+    });
 
     return <>
         <h1 id="mc-title">
