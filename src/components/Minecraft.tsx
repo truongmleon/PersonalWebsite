@@ -1,4 +1,5 @@
 import "../styles/minecraftStyles/styles.css";
+import { useEffect } from "react";
 
 const images = {
     0: { 
@@ -162,20 +163,19 @@ const images = {
         altText: "Into the night"
     },
 };
-const preloadImages = () => {
-    Object.values(images).forEach((image) => {
-        const img = new Image();
-        img.src = image.imgUrl;
-    });
-};
 
 const imagesArray: JSX.Element[] = Object.values(images).map((image) => 
     <img loading="lazy" className="mc" src={image.imgUrl} alt={image.altText} />
 );
 
 const Minecraft = () => {
-    preloadImages();
-    
+        useEffect(() => {
+            Object.values(images).forEach((src) => {
+                const img = new Image();
+                img.src = src.imgUrl;
+            });
+        }, []);
+
     return <>
         <h1 id="mc-title">
             Pieappleii's World &lt;3
