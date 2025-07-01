@@ -167,17 +167,7 @@ const imagesArray = Object.values(images).map((image) =>
     <img loading="lazy" className="mc" src={image.imgUrl} alt={image.altText} />
 );
 
-Object.values(images).forEach(({ imgUrl }) => {
-    const link = document.createElement("link");
-    link.rel = "preload";
-    link.as = "image";
-    link.href = imgUrl;
-    document.head.appendChild(link);
-});
-
 const Minecraft = () => {
-    // Doesn't work
-
     return <>
         <h1 id="mc-title">
             Pieappleii's World &lt;3
