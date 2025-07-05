@@ -165,6 +165,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    #cat, #flowers {
+        margin-top: 14vw;
+    }
+
     #sections {
         width: 80%;
     }
@@ -178,7 +182,7 @@
     }
 
     .project-box {
-        height: 50vw;
+        height: 60vw;
     }
 
     .project-title {
