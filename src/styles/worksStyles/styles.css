@@ -133,4 +133,19 @@
   .context {
     font-size: 1.7vw;
   }
+}
+@media screen and (max-width: 968px) {
+  #sections {
+    width: 75%;
+  }
+  .project-title {
+    font-size: 2.2vw;
+  }
+  .desc {
+    font-size: 1.8vw;
+    width: 65%;
+  }
+  .context {
+    font-size: 2vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
