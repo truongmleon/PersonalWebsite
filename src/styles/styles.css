@@ -248,4 +248,9 @@ nav {
   #mc-footer, #proj-footer {
     height: 14vw;
   }
+}
+@media screen and (max-width: 768px) {
+  #mc-footer, #proj-footer {
+    height: 16vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
