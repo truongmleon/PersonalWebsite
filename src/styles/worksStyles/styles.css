@@ -170,16 +170,15 @@
     margin-bottom: 6vw;
   }
   .project-box {
-    height: 40vw;
+    height: 50vw;
   }
   .project-title {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .desc {
-    font-size: 2.6vw;
-    width: 64%;
+    font-size: 3vw;
   }
   .context {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }/*# sourceMappingURL=styles.css.map */
