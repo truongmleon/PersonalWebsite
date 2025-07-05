@@ -43,11 +43,12 @@
     width: 70vw;
   }
 }
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 768px) {
   .mc {
     width: 80vw;
   }
   #mc-title {
     font-size: 8vw;
+    padding-top: 5vw;
   }
 }/*# sourceMappingURL=styles.css.map */
