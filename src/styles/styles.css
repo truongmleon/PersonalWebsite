@@ -253,6 +253,9 @@ nav {
   footer div p {
     font-size: 1.8vw;
   }
+  nav {
+    margin-right: 2%;
+  }
   #nav-list {
     width: 28%;
   }
