@@ -232,6 +232,9 @@ nav {
   }
 }
 @media screen and (max-width: 968px) {
+  footer {
+    height: 3vw;
+  }
   .nav {
     font-size: 1.6vw;
   }
