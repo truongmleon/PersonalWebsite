@@ -42,6 +42,8 @@ a {
 }
 
 footer {
+    padding: 0;
+    margin: 0;
     width: 100%;
     display: flex;
     align-items: end;
@@ -64,14 +66,12 @@ footer div p {
 }
 
 footer ul {
-    padding: 0;
-    margin: 0;
+
     position: absolute;
     right: 0;
     width: 20%;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     list-style-type: none;
 }
 
@@ -240,6 +240,6 @@ nav {
 
 @media screen and (max-width: 768px) {
     #mc-footer, #proj-footer {
-        height: 20vw;
+        height: 24vw;
     }
 }
