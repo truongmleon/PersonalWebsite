@@ -176,9 +176,13 @@
     font-size: 4vw;
   }
   .desc {
-    font-size: 3vw;
+    font-size: 3.3vw;
+    width: 56%;
   }
   .context {
     font-size: 3vw;
+  }
+  .project {
+    width: 30vw;
   }
 }/*# sourceMappingURL=styles.css.map */
