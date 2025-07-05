@@ -166,15 +166,18 @@
   #works-title {
     font-size: 10vw;
   }
+  #project-grid {
+    margin-bottom: 6vw;
+  }
   .project-box {
-    height: 34vw;
+    height: 40vw;
   }
   .project-title {
     font-size: 3vw;
   }
   .desc {
-    font-size: 2.3vw;
-    width: 67%;
+    font-size: 2.6vw;
+    width: 64%;
   }
   .context {
     font-size: 4vw;
