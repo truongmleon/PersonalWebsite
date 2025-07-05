@@ -51,8 +51,36 @@
     }
 }
 
+@media screen and (max-width: 1068px) {
+    #home {
+        height: 90vh;
+    }
+}
+
 @media screen and (max-width: 968px) {
     #room {
         width: 56%;
+    }
+
+    #home {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #home {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #home {
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    #home {
+        height: 45vh;
     }
 }
