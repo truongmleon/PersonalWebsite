@@ -7,7 +7,7 @@ const Footer = ({ id }: { id: string }) => {
         AOS.init();
     }, []);
         
-    return <footer data-aos="fade-down" id={id}>
+    return <footer id={id}>
        <div>
          <p>Leon Truong © 2025</p>
         <ul>

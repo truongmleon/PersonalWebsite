@@ -57,6 +57,7 @@ footer div {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #fcdfaf;
     box-shadow: rgba(17, 12, 46, 0.15) 0 -2vw -4vw;
 }
@@ -66,7 +67,6 @@ footer div p {
 }
 
 footer ul {
-
     position: absolute;
     right: 0;
     width: 20%;
@@ -187,10 +187,6 @@ nav {
     filter: drop-shadow(rgba(50, 50, 93, 0.25) 1vw 2vw 5vw);
 }
 
-#mc-footer, #proj-footer {
-    height: 10vw;
-}
-
 @keyframes transitionIn {
     from {
         opacity: 0;
@@ -219,9 +215,7 @@ nav {
 
 
 @media screen and (max-width: 1268px) {
-    #mc-footer, #proj-footer {
-        height: 12vw;
-    }
+
 }
 
 @media screen and (max-width: 968px) {
@@ -232,14 +226,8 @@ nav {
     #nav-list {
         width: 20%;
     }
-
-    #mc-footer, #proj-footer {
-        height: 18vw;
-    }
 }
 
 @media screen and (max-width: 768px) {
-    #mc-footer, #proj-footer {
-        height: 24vw;
-    }
+
 }
