@@ -14,7 +14,7 @@ const Works = () => {
                     <h2 className="context"><b>Languages</b>: Java, Python, TypeScript, HTML/SCSS</h2>
                     <h2 className="context"><b>Libraries</b>: React, NumPy, Matplotlib</h2>
                     <h2 className="context"><b>Frameworks</b>: Node.js</h2>
-                    <h2 className="context"><b>Tools</b>: Git, VS Code, Intellj</h2>
+                    <h2 className="context"><b>Tools</b>: Git, Bash, VS Code, Intellj</h2>
                 </section>
                 <section id="project-grid">
                     <Project 
@@ -50,7 +50,7 @@ const Works = () => {
                         while solving problems. The user creates problems in a flashcard system."
                     />
                     <Project 
-                        image="warringnations.webp" 
+                        image="WarringNations.webp" 
                         stack="JavaFX, React, FXML, SCSS, MathJax" 
                         title="Warring Nations" 
                         github="https://github.com/truongmleon/Warring-Nations-MoreMathEdition"

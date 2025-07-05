@@ -232,4 +232,9 @@ nav {
   100% {
     transform: translate(0, 0) rotate(0deg);
   }
+}
+@media screen and (max-width: 768px) {
+  #nav-list {
+    width: 20%;
+  }
 }/*# sourceMappingURL=styles.css.map */

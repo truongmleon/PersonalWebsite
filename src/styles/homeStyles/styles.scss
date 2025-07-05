@@ -43,10 +43,10 @@
 }
 
 @keyframes waveAnim {
-  0%, 40%, 100% {
-    transform: translateY(0);
-  }
-  20% {
-    transform: translateY(1.5vw);
-  }
+    0%, 40%, 100% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateY(1.5vw);
+    }
 }
