@@ -245,4 +245,7 @@ nav {
   #nav-list {
     width: 20%;
   }
+  #mc-footer, #proj-footer {
+    height: 14vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
