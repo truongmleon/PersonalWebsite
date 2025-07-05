@@ -220,6 +220,10 @@ nav {
 }
 
 @media screen and (max-width: 968px) {
+    footer ul {
+        width: 25%;
+    }
+    
     .nav {
         font-size: 1.6vw;
     }
@@ -235,6 +239,6 @@ nav {
     }
     
     footer div p {
-        font-size: 1.6vw;
+        font-size: 1.8vw;
     }
 }
