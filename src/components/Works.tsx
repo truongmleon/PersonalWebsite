@@ -4,7 +4,7 @@ import Project from '../components/Project';
 const Works = () => {
     return (
         <article className="flex">
-            <section className="sections">
+            <section id="sections">
                <div id="pixel-animation">
                  <img id="flowers" src="/assets/flowers.png" alt="flowers i made" />
                  <img id="cat" src="/assets/icecat.png" alt="cat i made" />

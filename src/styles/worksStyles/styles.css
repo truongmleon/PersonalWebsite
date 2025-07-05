@@ -52,6 +52,16 @@
   font-size: 1.4vw;
 }
 
+.context {
+  font-size: 1.4vw;
+  margin: 0 0 0 0.6vw;
+  padding: 0;
+}
+
+#sections {
+  width: 60%;
+}
+
 #images {
   display: flex;
   justify-content: right;
@@ -107,5 +117,13 @@
   }
   100% {
     transform: translate(0, 0) rotate(0deg) scaleX(-1);
+  }
+}
+@media screen and (max-width: 1268px) {
+  #sections {
+    width: 70%;
+  }
+  .content {
+    font-size: 1.7vw;
   }
 }/*# sourceMappingURL=styles.css.map */
