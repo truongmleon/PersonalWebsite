@@ -250,4 +250,7 @@ nav {
   footer div p {
     font-size: 1.8vw;
   }
+  #nav-list {
+    width: 25%;
+  }
 }/*# sourceMappingURL=styles.css.map */
