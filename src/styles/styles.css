@@ -51,6 +51,7 @@ footer {
 }
 
 footer div {
+  height: 5vw;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -232,9 +233,6 @@ nav {
   }
 }
 @media screen and (max-width: 968px) {
-  footer {
-    height: 3vw;
-  }
   .nav {
     font-size: 1.6vw;
   }
