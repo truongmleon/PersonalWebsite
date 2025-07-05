@@ -1,7 +1,3 @@
-.section-title {
-  margin: 0;
-}
-
 .project {
   margin-top: 1vw;
   width: 22vw;
@@ -56,6 +52,11 @@
   font-size: 1.4vw;
   margin: 0 0 0 0.6vw;
   padding: 0;
+}
+
+#works-title {
+  margin: 0;
+  font-size: 6vw;
 }
 
 #sections {
@@ -137,6 +138,9 @@
 @media screen and (max-width: 968px) {
   #sections {
     width: 75%;
+  }
+  #works-title {
+    font-size: 7vw;
   }
   .project-box {
     height: 28vw;
