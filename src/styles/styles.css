@@ -239,4 +239,9 @@ nav {
   #nav-list {
     width: 20%;
   }
+}
+@media screen and (max-width: 768px) {
+  footer div {
+    height: 8vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
