@@ -142,6 +142,10 @@
         font-size: 7vw;
     }
 
+    #cat, #flowers {
+        margin-top: 8vw;
+    }
+
     .project-box {
         height: 28vw;
     }
@@ -157,5 +161,32 @@
 
     .context {
         font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #sections {
+        width: 80%;
+    }
+
+    #works-title {
+        font-size: 10vw;
+    }
+
+    .project-box {
+        height: 34vw;
+    }
+
+    .project-title {
+        font-size: 3vw;
+    }
+
+    .desc {
+        font-size: 2.3vw;
+        width: 67%;
+    }
+
+    .context {
+        font-size: 4vw;
     }
 }
