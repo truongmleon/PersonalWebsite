@@ -10,7 +10,7 @@ const Works = () => {
                  <img id="cat" src="/assets/icecat.png" alt="cat i made" />
                </div>
                 <section data-aos="fade-right">
-                    <h1 className="section-title">swe stuff</h1>
+                    <h1 id="works-title">swe stuff</h1>
                     <h2 className="context"><b>Languages</b>: Java, Python, TypeScript, HTML/SCSS</h2>
                     <h2 className="context"><b>Libraries</b>: React, NumPy, Matplotlib</h2>
                     <h2 className="context"><b>Frameworks</b>: Node.js</h2>
