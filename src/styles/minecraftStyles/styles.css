@@ -36,7 +36,18 @@
   #mc-container {
     grid-template-columns: 1fr;
   }
+  #mc-title {
+    font-size: 6vw;
+  }
   .mc {
     width: 70vw;
+  }
+}
+@media screen and (max-width: 668px) {
+  .mc {
+    width: 80vw;
+  }
+  #mc-title {
+    font-size: 8vw;
   }
 }/*# sourceMappingURL=styles.css.map */
