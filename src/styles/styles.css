@@ -61,6 +61,8 @@ footer div p {
 }
 
 footer ul {
+  padding: 0;
+  margin: 0;
   position: absolute;
   right: 0;
   width: 20%;
@@ -247,5 +249,10 @@ nav {
   }
   #mc-footer, #proj-footer {
     height: 18vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  #mc-footer, #proj-footer {
+    height: 20vw;
   }
 }/*# sourceMappingURL=styles.css.map */
