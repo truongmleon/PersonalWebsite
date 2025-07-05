@@ -224,7 +224,7 @@ nav {
 }
 @media screen and (max-width: 1268px) {
   .nav {
-    font-size: 2vw;
+    font-size: 1.6vw;
   }
 }
 @media screen and (max-width: 968px) {
@@ -234,6 +234,9 @@ nav {
   #nav-list {
     width: 20%;
     margin-right: 6%;
+  }
+  .nav {
+    font-size: 2vw;
   }
 }
 @media screen and (max-width: 768px) {
