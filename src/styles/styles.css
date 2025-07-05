@@ -222,6 +222,11 @@ nav {
     transform: translate(0, 0) rotate(0deg);
   }
 }
+@media screen and (max-width: 1268px) {
+  .nav {
+    font-size: 2vw;
+  }
+}
 @media screen and (max-width: 968px) {
   footer ul {
     width: 25%;
@@ -229,9 +234,6 @@ nav {
   #nav-list {
     width: 20%;
     margin-right: 6%;
-  }
-  .nav {
-    font-size: 2vw;
   }
 }
 @media screen and (max-width: 768px) {
