@@ -56,14 +56,14 @@
   }
 }
 @media screen and (max-width: 968px) {
-  #room {
-    width: 62%;
-  }
   #home {
     height: 80vh;
   }
 }
 @media screen and (max-width: 690px) {
+  #room {
+    width: 62%;
+  }
   #home {
     height: 70vh;
   }
