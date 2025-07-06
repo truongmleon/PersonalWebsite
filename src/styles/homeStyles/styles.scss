@@ -53,18 +53,17 @@
 
 @media screen and (max-width: 1068px) {
     #home {
-        height: 90vh;
+        height: 80vh;
+    }
+
+    #room {
+        width: 67%;
     }
 }
 
 @media screen and (max-width: 968px) {
     #home {
         height: 70vh;
-    }
-
-    #room {
-        width: 67%;
-        padding-top: 50vh;
     }
 }
 
