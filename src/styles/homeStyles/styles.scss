@@ -80,16 +80,36 @@
 }
 
 @media screen and (max-width: 968px) {
-
+    #room {
+        width: 76%;
+    }
 }
 
 @media screen and (max-width: 690px) {
     #room {
-        width: 76%;
+        width: 86%;
     }
 
     #home {
         height: 60vh;
+    }
+
+    #eng-wrapper span {
+        line-height: 11vw;
+    }
+
+    #eng-wrapper span, #cn-wrapper span {
+        font-size: 12vw;
+    }
+
+    #cn-wrapper {
+        margin-left: 3%;
+        margin-top: 24%;
+    }
+
+    #eng-wrapper {
+        margin-left: 60%;
+        margin-top: 3%;
     }
 }
 
