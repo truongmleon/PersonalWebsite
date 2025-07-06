@@ -52,25 +52,24 @@
 }
 @media screen and (max-width: 1068px) {
   #home {
-    height: 70vh;
+    height: 60vh;
   }
   #room {
     width: 67%;
+  }
+  #eng-wrapper span {
+    line-height: 9vw;
   }
   #eng-wrapper span, #cn-wrapper span {
     font-size: 10vw;
   }
   #cn-wrapper {
+    margin-left: 3%;
     margin-top: 21%;
   }
   #eng-wrapper {
-    margin-left: 60%;
+    margin-left: 63%;
     margin-top: 3%;
-  }
-}
-@media screen and (max-width: 968px) {
-  #home {
-    height: 70vh;
   }
 }
 @media screen and (max-width: 690px) {
