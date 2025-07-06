@@ -52,7 +52,7 @@
 }
 @media screen and (max-width: 1068px) {
   #home {
-    height: 60vh;
+    height: 120vh;
   }
   #room {
     width: 67%;
@@ -75,6 +75,9 @@
 @media screen and (max-width: 968px) {
   #room {
     width: 76%;
+  }
+  #home {
+    height: 120vh;
   }
 }
 @media screen and (max-width: 690px) {
