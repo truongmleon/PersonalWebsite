@@ -59,10 +59,21 @@
   #home {
     height: 80vh;
   }
+  #room {
+    width: 67%;
+    padding-top: 50vh;
+  }
 }
 @media screen and (max-width: 690px) {
   #room {
-    width: 62%;
+    width: 76%;
+    padding-top: 50vh;
+  }
+  #cn-wrapper {
+    margin-top: 40%;
+  }
+  #eng-wrapper {
+    margin-top: 35%;
   }
   #home {
     height: 70vh;
