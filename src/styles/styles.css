@@ -227,6 +227,10 @@ nav {
   footer ul {
     width: 25%;
   }
+  #nav-list {
+    width: 20%;
+    margin-right: 6%;
+  }
   .nav {
     font-size: 2vw;
   }
@@ -243,6 +247,10 @@ nav {
   }
   footer ul {
     width: 30%;
+  }
+  #nav-list {
+    width: 30%;
+    margin-right: 8%;
   }
   .nav {
     font-size: 2.7vw;
