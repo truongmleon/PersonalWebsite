@@ -36,3 +36,9 @@
 #past-list {
     height: 21vw;
 }
+
+@media screen and (max-width: 968px) {
+    #current-stuff {
+        font-size: 6vw;
+    }
+}
