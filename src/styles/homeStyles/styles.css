@@ -52,10 +52,13 @@
 }
 @media screen and (max-width: 1068px) {
   #home {
-    height: 80vh;
+    height: 70vh;
   }
   #room {
     width: 67%;
+  }
+  #eng-wrapper span, #cn-wrapper span {
+    font-size: 10vw;
   }
 }
 @media screen and (max-width: 968px) {
