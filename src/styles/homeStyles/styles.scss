@@ -61,6 +61,10 @@
         padding-top: 8vh;
     }
 
+    #eng-wrapper br {
+        display: none;
+    }
+
     #eng-wrapper span {
         line-height: 9vw;
     }
@@ -75,7 +79,8 @@
     }
 
     #eng-wrapper {
-        margin-left: 63%;
+        margin-left: 43%;
+        margin-top: 3%;
     }
 }
 
@@ -91,7 +96,7 @@
     }
 
     #home {
-        height: 58vh;
+        height: 54vh;
     }
 
     #eng-wrapper span {

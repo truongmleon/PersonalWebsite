@@ -58,6 +58,9 @@
     width: 67%;
     padding-top: 8vh;
   }
+  #eng-wrapper br {
+    display: none;
+  }
   #eng-wrapper span {
     line-height: 9vw;
   }
@@ -69,7 +72,8 @@
     margin-top: 66%;
   }
   #eng-wrapper {
-    margin-left: 63%;
+    margin-left: 43%;
+    margin-top: 3%;
   }
 }
 @media screen and (max-width: 968px) {
@@ -82,7 +86,7 @@
     width: 86%;
   }
   #home {
-    height: 58vh;
+    height: 54vh;
   }
   #eng-wrapper span {
     line-height: 11vw;
