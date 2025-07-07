@@ -82,7 +82,7 @@
     width: 86%;
   }
   #home {
-    height: 90vh;
+    height: 65vh;
   }
   #eng-wrapper span {
     line-height: 11vw;
@@ -96,15 +96,5 @@
   }
   #eng-wrapper {
     margin-left: 57%;
-  }
-}
-@media screen and (max-width: 590px) {
-  #home {
-    height: 50vh;
-  }
-}
-@media screen and (max-width: 455px) {
-  #home {
-    height: 45vh;
   }
 }/*# sourceMappingURL=styles.css.map */
