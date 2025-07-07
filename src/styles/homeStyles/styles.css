@@ -52,7 +52,7 @@
 }
 @media screen and (max-width: 1068px) {
   #home {
-    height: 60vh;
+    height: 64vh;
   }
   #room {
     width: 67%;
@@ -66,7 +66,7 @@
   }
   #cn-wrapper {
     margin-left: 3%;
-    margin-top: 55%;
+    margin-top: 62%;
   }
   #eng-wrapper {
     margin-left: 63%;
