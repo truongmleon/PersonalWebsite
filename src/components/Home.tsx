@@ -16,7 +16,7 @@ const Home = () => {
                 />
             </div>
             <div id="eng-wrapper">
-            {"Leon".split('').map((char, index) => (
+            {"Leon ".split('').map((char, index) => (
             <span style={{ '--name': index + 1 } as React.CSSProperties}>{char}</span>
             ))}
             <br />
