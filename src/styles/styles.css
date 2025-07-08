@@ -236,7 +236,10 @@ nav {
   }
   .introduction {
     font-size: 6.5vw;
-    line-height: 4vw;
+    line-height: 5.5vw;
+  }
+  .blurb-me {
+    font-size: 2.5vw;
   }
 }
 @media screen and (max-width: 768px) {
