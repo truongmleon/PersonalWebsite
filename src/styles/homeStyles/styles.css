@@ -55,7 +55,7 @@
     height: 64vh;
   }
   #room {
-    width: 67%;
+    width: 75%;
     padding-top: 5vh;
   }
   #eng-wrapper br {
@@ -80,12 +80,12 @@
 }
 @media screen and (max-width: 968px) {
   #room {
-    width: 76%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 690px) {
   #room {
-    width: 86%;
+    width: 92%;
   }
   #home {
     height: 54vh;
