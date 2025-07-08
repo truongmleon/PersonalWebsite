@@ -10,7 +10,7 @@ const Past = () => {
                     alt="me and a friend" 
                 />
             </div>
-            <h3 className="introduction">glimpse of the&nbsp;<i>past</i></h3>
+            <h3 className="introduction">glimpse of the past</h3>
             <ul className="past-list">
                 <li className="blurb-me">Constructed civilizations in <a href="minecraft.html" target="_blank">Minecraft</a> and Animal Crossing (at least 1,200 hours combined)</li>
                 <li className="blurb-me">Messed in Blender and posted a lot of my <a href="https://www.instagram.com/pieappleii/" target="_blank">models</a></li>

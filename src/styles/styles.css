@@ -235,7 +235,8 @@ nav {
     font-size: 2vw;
   }
   .introduction {
-    font-size: 6vw;
+    font-size: 6.5vw;
+    line-height: 2vw;
   }
 }
 @media screen and (max-width: 768px) {

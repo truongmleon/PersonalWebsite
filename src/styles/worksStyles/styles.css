@@ -156,7 +156,7 @@
     width: 62%;
   }
   .context {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
 @media screen and (max-width: 768px) {
@@ -183,7 +183,7 @@
     width: 56%;
   }
   .context {
-    font-size: 3vw;
+    font-size: 3.2vw;
   }
   .project {
     width: 30vw;
