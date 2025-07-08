@@ -69,11 +69,11 @@
   }
   #cn-wrapper {
     margin-left: 3%;
-    margin-top: 60%;
+    margin-top: 65%;
   }
   #eng-wrapper {
     position: relative;
-    margin: 0;
+    margin: 3% 0 0 0;
     display: flex;
     justify-content: center;
   }
