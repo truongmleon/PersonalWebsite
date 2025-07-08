@@ -56,7 +56,7 @@
   }
   #room {
     width: 67%;
-    padding-top: 8vh;
+    padding-top: 2vh;
   }
   #eng-wrapper br {
     display: none;
@@ -69,11 +69,11 @@
   }
   #cn-wrapper {
     margin-left: 3%;
-    margin-top: 66%;
+    margin-top: 60%;
   }
   #eng-wrapper {
     position: relative;
-    margin: 5% 0 0 0;
+    margin: 0;
     display: flex;
     justify-content: center;
   }
