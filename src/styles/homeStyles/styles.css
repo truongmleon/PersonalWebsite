@@ -72,9 +72,8 @@
     margin-top: 66%;
   }
   #eng-wrapper {
-    width: 100%;
-    text-align: center;
-    margin-top: 5%;
+    margin-left: 21vw;
+    margin-top: 3%;
   }
 }
 @media screen and (max-width: 968px) {
@@ -98,8 +97,5 @@
   #cn-wrapper {
     margin-left: 3%;
     margin-top: 81%;
-  }
-  #eng-wrapper {
-    margin-left: 57%;
   }
 }/*# sourceMappingURL=styles.css.map */
