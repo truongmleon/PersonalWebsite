@@ -10,8 +10,7 @@
 
 @media screen and (max-width: 968px) {
   #games {
-    position: absolute;
-    margin-left: 50%;
-    margin-right: 50%;
+    width: 90%;
+    margin: 0;
   }
 }/*# sourceMappingURL=styles.css.map */

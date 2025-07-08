@@ -216,16 +216,23 @@ nav {
         margin-right: 6%;
     }
 
+    .responsive-center {
+        display: flex;
+        justify-content: center;
+    }
+
     .nav {
         font-size: 2vw;
     }
 
     .introduction {
+        width: 100%;
         font-size: 6.5vw;
         line-height: 5.5vw;
     }
 
     .blurb-me {
+        width: 100%;
         font-size: 2.5vw;
     }
 }

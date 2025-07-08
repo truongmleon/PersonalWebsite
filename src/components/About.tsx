@@ -48,7 +48,9 @@ const About = () => {
     return (
         <section data-aos="fade-left" className="about">
             <br/> 
-            <img id="games" onClick={() => getImage()} src={image} alt="Nintendo Switch and Game Boy made in Blender by me." />
+            <div className="responsive-center">
+                <img id="games" onClick={() => getImage()} src={image} alt="Nintendo Switch and Game Boy made in Blender by me." />
+            </div>
             <h3 className="introduction">about m3 _(ツ)_/¯</h3>
             <p className="blurb-me">
                 I’m Leon. I’m currently a computer science sophomore at the University of Washington.
