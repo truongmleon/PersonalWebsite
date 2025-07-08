@@ -72,8 +72,10 @@
     margin-top: 66%;
   }
   #eng-wrapper {
-    margin-left: 21vw;
-    margin-top: 3%;
+    position: relative;
+    margin: 5% 0 0 0;
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 968px) {

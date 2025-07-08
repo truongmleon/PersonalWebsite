@@ -79,8 +79,10 @@
     }
 
     #eng-wrapper {
-        margin-left: 21vw;
-        margin-top: 3%;
+        position: relative;
+        margin: 5% 0 0 0;
+        display: flex;
+        justify-content: center;
     }
 }
 
