@@ -12,7 +12,8 @@ const images = {
     8: { imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751296197/kb_nhaswq.webp" },
     9: { imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751296195/pc_wuhu6q.webp" },
     10: { imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751296182/gundam_xrqcfq.webp" },
-    11: { imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751296141/shrek_ztbok0.webp" },
+    11: { imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1752186271/books_fpnvt6.webp" },
+    12: { imgUrl: "https://res.cloudinary.com/di3wnypeb/image/upload/v1751296141/shrek_ztbok0.webp" },
 }
 
 const imagesArray = Object.values(images).map((image) => 

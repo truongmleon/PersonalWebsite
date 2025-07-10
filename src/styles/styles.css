@@ -273,4 +273,12 @@ nav {
   .nav {
     font-size: 2.7vw;
   }
+  .introduction {
+    width: 100%;
+    font-size: 7.5vw;
+  }
+  .blurb-me {
+    width: 100%;
+    font-size: 3.5vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
