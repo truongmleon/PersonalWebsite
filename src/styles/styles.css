@@ -234,6 +234,7 @@ nav {
   .photocard {
     height: 30vw;
     width: 40vw;
+    border: 1.2vw solid hsl(0, 0%, 98%);
   }
   .responsive-center {
     display: flex;
