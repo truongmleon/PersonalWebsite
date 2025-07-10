@@ -54,4 +54,16 @@
   .carousel-container {
     height: 40vw;
   }
+}
+@media screen and (max-width: 768px) {
+  #us {
+    position: relative;
+    margin-top: 33vw;
+    margin-bottom: 13vw;
+    width: 90%;
+    height: 52vw;
+  }
+  .carousel-container {
+    height: 40vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
