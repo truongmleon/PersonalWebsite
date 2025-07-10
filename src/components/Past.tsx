@@ -2,7 +2,7 @@ const Past = () => {
     return (
         <section data-aos="fade-left" className="about">
             <br/> 
-            <div className="float-wrapper">
+            <div className="float-wrapper responsive-center">
                 <img 
                     className="photocard" 
                     id="us" 

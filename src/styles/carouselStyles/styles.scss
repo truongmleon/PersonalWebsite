@@ -43,3 +43,13 @@
         transform: translateX(-50%);
     }
 }
+
+@media screen and (max-width: 968px) {
+    #us {
+        position: relative;
+        margin: 13vw 0;
+        width: 80%;
+        height: 47vw;
+    }
+
+}
