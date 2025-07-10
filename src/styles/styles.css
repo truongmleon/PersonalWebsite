@@ -273,7 +273,7 @@ nav {
   .photocard {
     height: 40vw;
     width: 55vw;
-    border: 1.2vw solid hsl(0, 0%, 98%);
+    border: 1.5vw solid hsl(0, 0%, 98%);
   }
   .nav {
     font-size: 2.7vw;
