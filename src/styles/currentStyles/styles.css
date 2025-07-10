@@ -60,6 +60,9 @@
 @media screen and (max-width: 768px) {
   #current-stuff {
     font-size: 9.5vw;
-    line-height: 8vw;
+    line-height: 9vw;
+  }
+  #car {
+    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
