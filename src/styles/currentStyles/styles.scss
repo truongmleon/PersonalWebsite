@@ -60,3 +60,9 @@
         margin: 1vw 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #current-stuff {
+        font-size: 9.5vw;
+    }
+}
