@@ -271,8 +271,8 @@ nav {
     margin-right: 8%;
   }
   .photocard {
-    height: 33vw;
-    width: 45vw;
+    height: 40vw;
+    width: 55vw;
     border: 1.2vw solid hsl(0, 0%, 98%);
   }
   .nav {
@@ -282,6 +282,7 @@ nav {
     width: 100%;
     font-size: 9.5vw;
     line-height: 9.5vw;
+    margin-bottom: 10vw;
   }
   .blurb-me {
     width: 100%;
