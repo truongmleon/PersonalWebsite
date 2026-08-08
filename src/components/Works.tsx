@@ -9,12 +9,11 @@ const Works = () => {
                  <img id="flowers" src="/assets/flowers.png" alt="flowers i made" />
                  <img id="cat" src="/assets/icecat.png" alt="cat i made" />
                </div>
-                <section data-aos="fade-right">
+                <section data-aos="fade-right" id="works-intro">
                     <h1 id="works-title">swe stuff</h1>
-                    <h2 className="context"><b>Languages</b>: Java, Python, TypeScript, HTML/SCSS</h2>
-                    <h2 className="context"><b>Libraries</b>: React, NumPy, Matplotlib</h2>
-                    <h2 className="context"><b>Frameworks</b>: Node.js</h2>
-                    <h2 className="context"><b>Tools</b>: Git, Bash, VS Code, Intellj</h2>
+                    <h2 className="context"><b>Languages</b>: C/C++, Rust, Java, Python, TypeScript, SQL, PHP, HTML, SCSS</h2>
+                    <h2 className="context"><b>Libraries & Frameworks</b>: React, Next.js, Django, Express, Node.js, NumPy, Matplotlib</h2>
+                    <h2 className="context"><b>Developer Tools</b>: Git, Linux/Bash, PostgreSQL, MySQL, Vite, GDB, VS Code, Vim, IntelliJ</h2>
                 </section>
                 <section id="project-grid">
                     <Project 

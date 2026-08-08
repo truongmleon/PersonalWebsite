@@ -53,15 +53,16 @@ const About = () => {
             </div>
             <h3 className="introduction">about m3 _(ツ)_/¯</h3>
             <p className="blurb-me">
-                I’m Leon. I’m currently a computer science sophomore at the University of Washington.
+                I’m Leon. I’m currently a computer science junior at the University of Washington.
                 I enjoy partaking in hackathons, building projects, and learning new technologies.
                 I actually kind of like learning everything, technology or not. There's a 
                 certain delight in collecting new skills and hobbies.
                 There's a lot of things to try out whether it's grinding out a video project, exploring a new game,
                 creating a terrible dish to suffer through, or even just reading a book. I really want to build
-                more PCs and mechanical keyboards. But recently, I've really liked cardisty. There's something intriguing
-                about how humans learn from repeated failure to construct some algorithm with 
-                your hands and it just looks cool.
+                more PCs and mechanical keyboards. Some weeks I might be so obsessed with tennis that it's all I think about.
+                Perhaps I'm then obsessed with creating a new passionate project based on video game UIs. Or frontends on Linux
+                for retro game preservation. Eventually, obsessions fade and I find myself exploring new things.
+                But in the end, I always come back to them.
             </p>
             <p className="blurb-me">
                 I chose the path of the software engineer because I want to build stuff. My favorite video game of all 
